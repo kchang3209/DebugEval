@@ -1,8 +1,8 @@
 import json
 
-refs = "../DebugEval/error_code_localization/zero_shot/refs_zero_shot.txt"
-pres = "../DebugEval/error_code_localization/zero_shot/pres_zero_shot.txt"
-path = "../COAST/Data/debugevalsuite_task124.jsonl"
+refs = "./DebugEval/error_code_localization/zero_shot/refs_zero_shot.txt"
+pres = "./DebugEval/error_code_localization/zero_shot/pres_zero_shot.txt"
+path = "./COAST_DebugEval/Data/debugevalsuite_task124.jsonl"
 
 refs = [i.strip() for i in open(refs,'r',encoding='utf8').readlines()]
 pres = [i.strip() for i in open(pres,'r',encoding='utf8').readlines()]
@@ -53,10 +53,10 @@ for k in range(len(refs)):
     all_score.append(acc)
 
 print(dict)
-print(len(dict['cpp']))
-print(len(dict['java']))
-print(len(dict['python']))
-print(f'cpp:{np.mean(dict["cpp"])}')
-print(f'java:{np.mean(dict["java"])}')
-print(f'python:{np.mean(dict["python"])}')
+# print(len(dict['cpp']))
+# print(len(dict['java']))
+# print(len(dict['python']))
+# print(f'cpp:{np.mean(dict["cpp"])}')
+# print(f'java:{np.mean(dict["java"])}')
+# print(f'python:{np.mean(dict["python"])}')
 print(f'all:{np.mean(all_score)}')
