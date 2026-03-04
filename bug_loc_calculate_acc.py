@@ -1,8 +1,8 @@
 import json
 
-refs = "refs_zero_shot.txt"
-pres = "pres_zero_shot.txt"
-path = "debugevalsuite_task124.jsonl"
+refs = "../DebugEval/error_code_localization/zero_shot/refs_zero_shot.txt"
+pres = "../DebugEval/error_code_localization/zero_shot/pres_zero_shot.txt"
+path = "../COAST/Data/debugevalsuite_task124.jsonl"
 
 refs = [i.strip() for i in open(refs,'r',encoding='utf8').readlines()]
 pres = [i.strip() for i in open(pres,'r',encoding='utf8').readlines()]

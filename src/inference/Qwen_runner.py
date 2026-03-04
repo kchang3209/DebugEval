@@ -24,8 +24,8 @@ def Qwen_runner(args,prompt,model,sampling_params):
     
 
     if args.mode == 'text_only':
-        outputs = model.generate(prompts, sampling_params)
-        num_text_tokens = outputs[0].usage.prompt_tokens
+        outputs = model.generate(prompt, sampling_params)
+        num_text_tokens = len(outputs[0].outputs[0].token_ids)
         response = outputs[0].outputs[0].text
         return response, num_text_tokens
 
