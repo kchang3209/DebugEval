@@ -96,6 +96,7 @@ def main():
     parser.add_argument("--mode", type=str, default='', help="text-only or vlm mode")
     parser.add_argument("--num_quiz", type=int, default=100, help="number of quizes in each catagory to solve")
     parser.add_argument("--GPU_util", type=float, default=0.9, help="GPU utilization ratio")
+    parser.add_argument("--model_path", type=str, default='', help="local model weights")
     args = parser.parse_args()
 
     # read data
@@ -224,7 +225,11 @@ def main():
     if "Qwen" in args.model:  ## Model Loader CSE247
         if args.mode == 'text_only':
             os.environ['VLLM_WORKER_MULTIPROC_METHOD'] = 'spawn'
-            model = LLM(model=args.model,
+            if args.model_path is None:
+                model_location = args.model
+            else:
+                model_location = args.model_path
+            model = LLM(model=model_location,
                       tokenizer=args.model,
                       gpu_memory_utilization=args.GPU_util)
             sampling_params = SamplingParams(temperature=args.temperature,
