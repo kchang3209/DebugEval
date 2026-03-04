@@ -265,15 +265,15 @@ def main():
                     buggy_code = line['buggy_code']
                     options = line['task1_options']
                     prompt = prompt_template.replace("%%%Task%%%",question_content).replace("%%%Incorrect_Solution%%%",buggy_code).replace("%%%Options%%%",options)
-                    print("=====================================")
-                    print("Prompt: ", prompt)
-                    print("=====================================")
+                    # print("=====================================")
+                    # print("Prompt: ", prompt)
+                    # print("=====================================")
                     # messages = [{"role": "user", "content": prompt}]
                     # responses, num_text_tokens = runner(args, messages,model,tokenizer) # CSE247
                     responses, num_text_tokens = runner(args, prompt, model, sampling_params) # CSE247
                     print("=====================================")
                     print("Responses: ", responses)
-                    print("=====================================")
+                    # print("=====================================")
                     line['responses'] = responses
                     line['private_test_cases'] = ''
                     f.write(
