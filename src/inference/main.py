@@ -14,7 +14,7 @@ import codeQwen_post_process
 # from eval.error_type_identification import calc_accuracy
 
 from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
-
+from vllm import LLM, SamplingParams
 
 def read_jsonl_file(file_path):
     results = []
@@ -95,6 +95,7 @@ def main():
     parser.add_argument("--max_tokens", type=int, default=1024, help="Max tokens for sampling")
     parser.add_argument("--mode", type=str, default='', help="text-only or vlm mode")
     parser.add_argument("--num_quiz", type=int, default=100, help="number of quizes in each catagory to solve")
+    parser.add_argument("--GPU_util", type=float, default=0.9, help="GPU utilization ratio")
     args = parser.parse_args()
 
     # read data
@@ -209,7 +210,7 @@ def main():
         os.makedirs(output_dir)
     output_path = os.path.join(output_dir, "results_{}.jsonl".format(args.prompt_type))
     if not os.path.exists(output_path):
-        remaining_data = data
+        remaining_data = data   # never run before, whole data is the remaining data CSE247
     else:
         print("Reading existing results from {}".format(output_path))
         done_results = read_jsonl_file(output_path)
@@ -220,17 +221,26 @@ def main():
 
     runner = None
     
-    if "Qwen" in args.model:  # CSE247
+    if "Qwen" in args.model:  ## Model Loader CSE247
         if args.mode == 'text_only':
-            tokenizer = AutoTokenizer.from_pretrained(args.model)
-
-            model = AutoModelForCausalLM.from_pretrained(
-                args.model,
-                torch_dtype="auto",
-                device_map="auto"
-            )
-        print('qwen runner ready')
+            os.environ['VLLM_WORKER_MULTIPROC_METHOD'] = 'spawn'
+            model = LLM(model=args.model,
+                      tokenizer=args.model,
+                      gpu_memory_utilization=args.GPU_util)
+            sampling_params = SamplingParams(temperature=args.temperature,
+                                             top_p=args.top_p,
+                                             max_tokens=args.max_tokens)
+            # =======================
+            # CSE247 HF Model Loader
+            # =======================
+            # tokenizer = AutoTokenizer.from_pretrained(args.model)
+            # model = AutoModelForCausalLM.from_pretrained(
+            #     args.model,
+            #     torch_dtype="auto",
+            #     device_map="auto"
+            # )
         runner = Qwen_runner
+        print('Qwen Model Ready.')
     elif "gpt" in args.model:
         runner = gpt_runner
     elif args.model == 'deepseek-chat' or args.model == 'deepseek-coder':
@@ -253,8 +263,9 @@ def main():
                     print("=====================================")
                     print("Prompt: ", prompt)
                     print("=====================================")
-                    messages = [{"role": "user", "content": prompt}]
-                    responses, num_text_tokens = runner(args, messages,model,tokenizer)
+                    # messages = [{"role": "user", "content": prompt}]
+                    # responses, num_text_tokens = runner(args, messages,model,tokenizer) # CSE247
+                    responses, num_text_tokens = runner(args, prompt, model, sampling_params) # CSE247
                     print("=====================================")
                     print("Responses: ", responses)
                     print("=====================================")
