@@ -14,7 +14,7 @@ import codeQwen_post_process
 # from eval.error_type_identification import calc_accuracy
 
 # from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
-
+from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
 from qwen_vl_utils import process_vision_info
 from transformers import AutoProcessor
@@ -284,6 +284,7 @@ def main():
                       tokenizer=args.model,
                       max_model_len=args.max_model_len,
                       gpu_memory_utilization=args.GPU_util)
+            tokenizer = AutoTokenizer.from_pretrained(model_path)
             # =======================
             # CSE247 HF Model Loader
             # =======================
@@ -347,7 +348,8 @@ def main():
                     # messages = [{"role": "user", "content": prompt}]
                     # responses, num_text_tokens = runner(args, messages,model,tokenizer) # CSE247
                     if args.mode == 'text_only':
-                        responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
+                        num_req_tok = len(tokenizer(prompt)["input_ids"])
+                        responses = runner(args, prompt, model, sampling_params) # CSE247
                     elif args.mode == 'vlm':
                         
                         messages = [
@@ -364,7 +366,8 @@ def main():
                         ]
                         processor = AutoProcessor.from_pretrained(model_location)                        
                         inputs = [prepare_inputs_for_vllm(message, processor) for message in [messages]]
-                        responses, num_req_tok = runner(args, inputs, model, sampling_params)
+                        responses = runner(args, inputs, model, sampling_params)
+                        num_req_tok = args.num_visual_tokens
                     print("=====================================")
                     print("Responses: ", responses)
                     # print("=====================================")
