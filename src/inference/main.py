@@ -335,7 +335,7 @@ def main():
                     options = line['task1_options']
                     prompt = prompt_template.replace("%%%Task%%%",question_content).replace("%%%Incorrect_Solution%%%",buggy_code).replace("%%%Options%%%",options)
                     
-                    task_id = line['task_id']
+                    task_id = line['question_id']
                     for item in dataset:
                         if item['task_id'] != task_id:
                             continue
@@ -360,7 +360,8 @@ def main():
                                     "type": "image",
                                     "image": image_path,
                                 },
-                                {"type": "text", "text": "Follow the instructions in the image"},
+                                {"type": "text", "text": "Follow the instructions in the image. In your response, the final answer should be in the following format: <Answer>(Option)</Answer>. For example, your output format should like <Answer>(A)</Answer>"},
+                                # {"type": "text", "text": "Follow the instructions in the image"},
                                 ],
                             }
                         ]
