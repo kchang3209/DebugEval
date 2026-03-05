@@ -1,0 +1,2892 @@
+[
+  {
+    "task_id": "leetcode_6",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_6_b9381e0e06a0.png",
+    "prompt_image": "leetcode_6_b9381e0e06a0.png"
+  },
+  {
+    "task_id": "leetcode_25",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_25_1241bea4c409.png",
+    "prompt_image": "leetcode_25_1241bea4c409.png"
+  },
+  {
+    "task_id": "leetcode_29",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_29_fe79926a53cc.png",
+    "prompt_image": "leetcode_29_fe79926a53cc.png"
+  },
+  {
+    "task_id": "leetcode_38",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_38_e106abcbe6a6.png",
+    "prompt_image": "leetcode_38_e106abcbe6a6.png"
+  },
+  {
+    "task_id": "leetcode_39",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_39_c9096eefbae4.png",
+    "prompt_image": "leetcode_39_c9096eefbae4.png"
+  },
+  {
+    "task_id": "leetcode_40",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_40_90a0db196f29.png",
+    "prompt_image": "leetcode_40_90a0db196f29.png"
+  },
+  {
+    "task_id": "leetcode_41",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_41_bc809e8b4112.png",
+    "prompt_image": "leetcode_41_bc809e8b4112.png"
+  },
+  {
+    "task_id": "leetcode_42",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_42_78f70ff170d1.png",
+    "prompt_image": "leetcode_42_78f70ff170d1.png"
+  },
+  {
+    "task_id": "leetcode_43",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_43_eeadafdaf5e6.png",
+    "prompt_image": "leetcode_43_eeadafdaf5e6.png"
+  },
+  {
+    "task_id": "leetcode_44",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_44_37a9c774c8bc.png",
+    "prompt_image": "leetcode_44_37a9c774c8bc.png"
+  },
+  {
+    "task_id": "leetcode_45",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_45_db1d3196c3e7.png",
+    "prompt_image": "leetcode_45_db1d3196c3e7.png"
+  },
+  {
+    "task_id": "leetcode_46",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_46_a3a203f178e4.png",
+    "prompt_image": "leetcode_46_a3a203f178e4.png"
+  },
+  {
+    "task_id": "leetcode_47",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_47_c47ca2c9464c.png",
+    "prompt_image": "leetcode_47_c47ca2c9464c.png"
+  },
+  {
+    "task_id": "leetcode_48",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_48_fdcab86bc9bd.png",
+    "prompt_image": "leetcode_48_fdcab86bc9bd.png"
+  },
+  {
+    "task_id": "leetcode_49",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_49_1fc5187b007c.png",
+    "prompt_image": "leetcode_49_1fc5187b007c.png"
+  },
+  {
+    "task_id": "leetcode_50",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_50_f0e418b8af13.png",
+    "prompt_image": "leetcode_50_f0e418b8af13.png"
+  },
+  {
+    "task_id": "leetcode_51",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_51_b662e0c7cf69.png",
+    "prompt_image": "leetcode_51_b662e0c7cf69.png"
+  },
+  {
+    "task_id": "leetcode_52",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_52_c53223bf539e.png",
+    "prompt_image": "leetcode_52_c53223bf539e.png"
+  },
+  {
+    "task_id": "leetcode_308",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_308_e84f58b74e02.png",
+    "prompt_image": "leetcode_308_e84f58b74e02.png"
+  },
+  {
+    "task_id": "leetcode_310",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_310_22c2fbf6188d.png",
+    "prompt_image": "leetcode_310_22c2fbf6188d.png"
+  },
+  {
+    "task_id": "leetcode_311",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_311_a4419de934b5.png",
+    "prompt_image": "leetcode_311_a4419de934b5.png"
+  },
+  {
+    "task_id": "leetcode_317",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_317_fadae9f4837c.png",
+    "prompt_image": "leetcode_317_fadae9f4837c.png"
+  },
+  {
+    "task_id": "leetcode_318",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_318_15f063a69e73.png",
+    "prompt_image": "leetcode_318_15f063a69e73.png"
+  },
+  {
+    "task_id": "leetcode_319",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_319_2a10eef2adb8.png",
+    "prompt_image": "leetcode_319_2a10eef2adb8.png"
+  },
+  {
+    "task_id": "leetcode_323",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_323_cedd8633c020.png",
+    "prompt_image": "leetcode_323_cedd8633c020.png"
+  },
+  {
+    "task_id": "leetcode_324",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_324_0b7d8f24f554.png",
+    "prompt_image": "leetcode_324_0b7d8f24f554.png"
+  },
+  {
+    "task_id": "leetcode_327",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_327_f37681652b11.png",
+    "prompt_image": "leetcode_327_f37681652b11.png"
+  },
+  {
+    "task_id": "leetcode_330",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_330_c598b9680492.png",
+    "prompt_image": "leetcode_330_c598b9680492.png"
+  },
+  {
+    "task_id": "leetcode_331",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_331_79accca1015d.png",
+    "prompt_image": "leetcode_331_79accca1015d.png"
+  },
+  {
+    "task_id": "leetcode_332",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_332_eaed842e6e9e.png",
+    "prompt_image": "leetcode_332_eaed842e6e9e.png"
+  },
+  {
+    "task_id": "leetcode_333",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_333_c83ca4f04134.png",
+    "prompt_image": "leetcode_333_c83ca4f04134.png"
+  },
+  {
+    "task_id": "leetcode_334",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_334_7d86633fa184.png",
+    "prompt_image": "leetcode_334_7d86633fa184.png"
+  },
+  {
+    "task_id": "leetcode_338",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_338_72939ec13ff9.png",
+    "prompt_image": "leetcode_338_72939ec13ff9.png"
+  },
+  {
+    "task_id": "leetcode_339",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_339_2df22086afab.png",
+    "prompt_image": "leetcode_339_2df22086afab.png"
+  },
+  {
+    "task_id": "leetcode_341",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_341_52b3c3d5efe1.png",
+    "prompt_image": "leetcode_341_52b3c3d5efe1.png"
+  },
+  {
+    "task_id": "leetcode_343",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_343_8bf4295a6885.png",
+    "prompt_image": "leetcode_343_8bf4295a6885.png"
+  },
+  {
+    "task_id": "leetcode_347",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_347_56a6a8c3c791.png",
+    "prompt_image": "leetcode_347_56a6a8c3c791.png"
+  },
+  {
+    "task_id": "leetcode_348",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_348_dbee2b4fe701.png",
+    "prompt_image": "leetcode_348_dbee2b4fe701.png"
+  },
+  {
+    "task_id": "leetcode_349",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_349_409001765f6a.png",
+    "prompt_image": "leetcode_349_409001765f6a.png"
+  },
+  {
+    "task_id": "leetcode_350",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_350_294e355bbb06.png",
+    "prompt_image": "leetcode_350_294e355bbb06.png"
+  },
+  {
+    "task_id": "leetcode_351",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_351_4ce0c3f8581b.png",
+    "prompt_image": "leetcode_351_4ce0c3f8581b.png"
+  },
+  {
+    "task_id": "leetcode_352",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_352_4217e8003028.png",
+    "prompt_image": "leetcode_352_4217e8003028.png"
+  },
+  {
+    "task_id": "leetcode_353",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_353_f9634845a86f.png",
+    "prompt_image": "leetcode_353_f9634845a86f.png"
+  },
+  {
+    "task_id": "leetcode_354",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_354_3ceb1e45b8cc.png",
+    "prompt_image": "leetcode_354_3ceb1e45b8cc.png"
+  },
+  {
+    "task_id": "leetcode_356",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_356_129e2b5b1096.png",
+    "prompt_image": "leetcode_356_129e2b5b1096.png"
+  },
+  {
+    "task_id": "leetcode_358",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_358_11421f4cc6a9.png",
+    "prompt_image": "leetcode_358_11421f4cc6a9.png"
+  },
+  {
+    "task_id": "leetcode_359",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_359_7107d6468376.png",
+    "prompt_image": "leetcode_359_7107d6468376.png"
+  },
+  {
+    "task_id": "leetcode_360",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_360_8817ad35ceae.png",
+    "prompt_image": "leetcode_360_8817ad35ceae.png"
+  },
+  {
+    "task_id": "leetcode_361",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_361_488b931b5136.png",
+    "prompt_image": "leetcode_361_488b931b5136.png"
+  },
+  {
+    "task_id": "leetcode_362",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_362_0e775da7c416.png",
+    "prompt_image": "leetcode_362_0e775da7c416.png"
+  },
+  {
+    "task_id": "leetcode_363",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_363_c83ed2cfc776.png",
+    "prompt_image": "leetcode_363_c83ed2cfc776.png"
+  },
+  {
+    "task_id": "leetcode_364",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_364_c9e4caec0e03.png",
+    "prompt_image": "leetcode_364_c9e4caec0e03.png"
+  },
+  {
+    "task_id": "leetcode_365",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_365_2f1367e4b0b3.png",
+    "prompt_image": "leetcode_365_2f1367e4b0b3.png"
+  },
+  {
+    "task_id": "leetcode_366",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_366_258c388f639c.png",
+    "prompt_image": "leetcode_366_258c388f639c.png"
+  },
+  {
+    "task_id": "leetcode_368",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_368_dc7f2bdad3dd.png",
+    "prompt_image": "leetcode_368_dc7f2bdad3dd.png"
+  },
+  {
+    "task_id": "leetcode_369",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_369_3066a1b749f7.png",
+    "prompt_image": "leetcode_369_3066a1b749f7.png"
+  },
+  {
+    "task_id": "leetcode_688",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_688_18bf03aad0c1.png",
+    "prompt_image": "leetcode_688_18bf03aad0c1.png"
+  },
+  {
+    "task_id": "leetcode_692",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_692_a5fef3a88da2.png",
+    "prompt_image": "leetcode_692_a5fef3a88da2.png"
+  },
+  {
+    "task_id": "leetcode_694",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_694_14ca67154424.png",
+    "prompt_image": "leetcode_694_14ca67154424.png"
+  },
+  {
+    "task_id": "leetcode_696",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_696_f5fe1a78b711.png",
+    "prompt_image": "leetcode_696_f5fe1a78b711.png"
+  },
+  {
+    "task_id": "leetcode_697",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_697_22c42d126a2d.png",
+    "prompt_image": "leetcode_697_22c42d126a2d.png"
+  },
+  {
+    "task_id": "leetcode_698",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_698_fc275069d69d.png",
+    "prompt_image": "leetcode_698_fc275069d69d.png"
+  },
+  {
+    "task_id": "leetcode_699",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_699_8bd0d77d3326.png",
+    "prompt_image": "leetcode_699_8bd0d77d3326.png"
+  },
+  {
+    "task_id": "leetcode_702",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_702_01030e539b63.png",
+    "prompt_image": "leetcode_702_01030e539b63.png"
+  },
+  {
+    "task_id": "leetcode_706",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_706_4e0f5ed95c1a.png",
+    "prompt_image": "leetcode_706_4e0f5ed95c1a.png"
+  },
+  {
+    "task_id": "leetcode_707",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_707_7f98a8bfda59.png",
+    "prompt_image": "leetcode_707_7f98a8bfda59.png"
+  },
+  {
+    "task_id": "leetcode_708",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_708_387cc1078c11.png",
+    "prompt_image": "leetcode_708_387cc1078c11.png"
+  },
+  {
+    "task_id": "leetcode_709",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_709_35592561669e.png",
+    "prompt_image": "leetcode_709_35592561669e.png"
+  },
+  {
+    "task_id": "leetcode_712",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_712_36a10e05b4e4.png",
+    "prompt_image": "leetcode_712_36a10e05b4e4.png"
+  },
+  {
+    "task_id": "leetcode_714",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_714_ea336ed33d44.png",
+    "prompt_image": "leetcode_714_ea336ed33d44.png"
+  },
+  {
+    "task_id": "leetcode_719",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_719_5d086fb0ca16.png",
+    "prompt_image": "leetcode_719_5d086fb0ca16.png"
+  },
+  {
+    "task_id": "leetcode_720",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_720_6cd2774554e6.png",
+    "prompt_image": "leetcode_720_6cd2774554e6.png"
+  },
+  {
+    "task_id": "leetcode_721",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_721_a0c0d89f5329.png",
+    "prompt_image": "leetcode_721_a0c0d89f5329.png"
+  },
+  {
+    "task_id": "leetcode_723",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_723_041abbd19206.png",
+    "prompt_image": "leetcode_723_041abbd19206.png"
+  },
+  {
+    "task_id": "leetcode_725",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_725_9ac5d8e2c6ac.png",
+    "prompt_image": "leetcode_725_9ac5d8e2c6ac.png"
+  },
+  {
+    "task_id": "leetcode_727",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_727_039b6112556f.png",
+    "prompt_image": "leetcode_727_039b6112556f.png"
+  },
+  {
+    "task_id": "leetcode_734",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_734_e41873551038.png",
+    "prompt_image": "leetcode_734_e41873551038.png"
+  },
+  {
+    "task_id": "leetcode_735",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_735_c2246d28aa15.png",
+    "prompt_image": "leetcode_735_c2246d28aa15.png"
+  },
+  {
+    "task_id": "leetcode_736",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_736_5807c7660e44.png",
+    "prompt_image": "leetcode_736_5807c7660e44.png"
+  },
+  {
+    "task_id": "leetcode_737",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_737_0569f9f8f20d.png",
+    "prompt_image": "leetcode_737_0569f9f8f20d.png"
+  },
+  {
+    "task_id": "leetcode_739",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_739_8786636861a3.png",
+    "prompt_image": "leetcode_739_8786636861a3.png"
+  },
+  {
+    "task_id": "leetcode_740",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_740_276fcc481450.png",
+    "prompt_image": "leetcode_740_276fcc481450.png"
+  },
+  {
+    "task_id": "leetcode_741",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_741_a472dc653980.png",
+    "prompt_image": "leetcode_741_a472dc653980.png"
+  },
+  {
+    "task_id": "leetcode_742",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_742_737028b4b413.png",
+    "prompt_image": "leetcode_742_737028b4b413.png"
+  },
+  {
+    "task_id": "leetcode_743",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_743_6433ba277374.png",
+    "prompt_image": "leetcode_743_6433ba277374.png"
+  },
+  {
+    "task_id": "leetcode_744",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_744_69f0bb8f5e86.png",
+    "prompt_image": "leetcode_744_69f0bb8f5e86.png"
+  },
+  {
+    "task_id": "leetcode_746",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_746_1cfc4a981655.png",
+    "prompt_image": "leetcode_746_1cfc4a981655.png"
+  },
+  {
+    "task_id": "leetcode_747",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_747_76528dcf25c2.png",
+    "prompt_image": "leetcode_747_76528dcf25c2.png"
+  },
+  {
+    "task_id": "leetcode_748",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_748_72339a622fe7.png",
+    "prompt_image": "leetcode_748_72339a622fe7.png"
+  },
+  {
+    "task_id": "leetcode_749",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_749_cecaaea688c5.png",
+    "prompt_image": "leetcode_749_cecaaea688c5.png"
+  },
+  {
+    "task_id": "leetcode_750",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_750_e9a20ad9d6d0.png",
+    "prompt_image": "leetcode_750_e9a20ad9d6d0.png"
+  },
+  {
+    "task_id": "leetcode_751",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_751_780635babd98.png",
+    "prompt_image": "leetcode_751_780635babd98.png"
+  },
+  {
+    "task_id": "leetcode_753",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_753_cf0e12ba33dd.png",
+    "prompt_image": "leetcode_753_cf0e12ba33dd.png"
+  },
+  {
+    "task_id": "leetcode_756",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_756_2738b354414c.png",
+    "prompt_image": "leetcode_756_2738b354414c.png"
+  },
+  {
+    "task_id": "leetcode_757",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_757_cd216e21d79d.png",
+    "prompt_image": "leetcode_757_cd216e21d79d.png"
+  },
+  {
+    "task_id": "leetcode_758",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_758_cd057cb51b5b.png",
+    "prompt_image": "leetcode_758_cd057cb51b5b.png"
+  },
+  {
+    "task_id": "leetcode_778",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_778_6dccf0e4cecf.png",
+    "prompt_image": "leetcode_778_6dccf0e4cecf.png"
+  },
+  {
+    "task_id": "leetcode_781",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_781_429a91c97774.png",
+    "prompt_image": "leetcode_781_429a91c97774.png"
+  },
+  {
+    "task_id": "leetcode_782",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_782_5c6f251b5fbf.png",
+    "prompt_image": "leetcode_782_5c6f251b5fbf.png"
+  },
+  {
+    "task_id": "leetcode_785",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_785_53557b69416e.png",
+    "prompt_image": "leetcode_785_53557b69416e.png"
+  },
+  {
+    "task_id": "leetcode_787",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_787_b65e202f4276.png",
+    "prompt_image": "leetcode_787_b65e202f4276.png"
+  },
+  {
+    "task_id": "leetcode_788",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_788_32d8e3e8f7f5.png",
+    "prompt_image": "leetcode_788_32d8e3e8f7f5.png"
+  },
+  {
+    "task_id": "leetcode_789",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_789_ab5e48d258b5.png",
+    "prompt_image": "leetcode_789_ab5e48d258b5.png"
+  },
+  {
+    "task_id": "leetcode_790",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_790_5a029d64fef5.png",
+    "prompt_image": "leetcode_790_5a029d64fef5.png"
+  },
+  {
+    "task_id": "leetcode_793",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_793_e1c81c713062.png",
+    "prompt_image": "leetcode_793_e1c81c713062.png"
+  },
+  {
+    "task_id": "leetcode_794",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_794_006457db8c19.png",
+    "prompt_image": "leetcode_794_006457db8c19.png"
+  },
+  {
+    "task_id": "leetcode_825",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_825_4a2af707b1fa.png",
+    "prompt_image": "leetcode_825_4a2af707b1fa.png"
+  },
+  {
+    "task_id": "leetcode_826",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_826_b1e8b005bcda.png",
+    "prompt_image": "leetcode_826_b1e8b005bcda.png"
+  },
+  {
+    "task_id": "leetcode_828",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_828_870065afed24.png",
+    "prompt_image": "leetcode_828_870065afed24.png"
+  },
+  {
+    "task_id": "leetcode_829",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_829_a0794f2f9d85.png",
+    "prompt_image": "leetcode_829_a0794f2f9d85.png"
+  },
+  {
+    "task_id": "leetcode_831",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_831_c48f3c6318c9.png",
+    "prompt_image": "leetcode_831_c48f3c6318c9.png"
+  },
+  {
+    "task_id": "leetcode_832",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_832_2579bfe969dc.png",
+    "prompt_image": "leetcode_832_2579bfe969dc.png"
+  },
+  {
+    "task_id": "leetcode_833",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_833_1b1f3b4fe64a.png",
+    "prompt_image": "leetcode_833_1b1f3b4fe64a.png"
+  },
+  {
+    "task_id": "leetcode_834",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_834_0908753c8f25.png",
+    "prompt_image": "leetcode_834_0908753c8f25.png"
+  },
+  {
+    "task_id": "leetcode_837",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_837_3d178f2a1e19.png",
+    "prompt_image": "leetcode_837_3d178f2a1e19.png"
+  },
+  {
+    "task_id": "leetcode_838",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_838_82f4d74c7fe8.png",
+    "prompt_image": "leetcode_838_82f4d74c7fe8.png"
+  },
+  {
+    "task_id": "leetcode_839",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_839_b4aca8deb3b3.png",
+    "prompt_image": "leetcode_839_b4aca8deb3b3.png"
+  },
+  {
+    "task_id": "leetcode_840",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_840_42c02122788c.png",
+    "prompt_image": "leetcode_840_42c02122788c.png"
+  },
+  {
+    "task_id": "leetcode_841",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_841_159eff69ead9.png",
+    "prompt_image": "leetcode_841_159eff69ead9.png"
+  },
+  {
+    "task_id": "leetcode_844",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_844_523a827ecc25.png",
+    "prompt_image": "leetcode_844_523a827ecc25.png"
+  },
+  {
+    "task_id": "leetcode_845",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_845_f400a4411607.png",
+    "prompt_image": "leetcode_845_f400a4411607.png"
+  },
+  {
+    "task_id": "leetcode_846",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_846_c7cd7ede4955.png",
+    "prompt_image": "leetcode_846_c7cd7ede4955.png"
+  },
+  {
+    "task_id": "leetcode_847",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_847_3b4f5bb2e96f.png",
+    "prompt_image": "leetcode_847_3b4f5bb2e96f.png"
+  },
+  {
+    "task_id": "leetcode_850",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_850_555fbe81c89a.png",
+    "prompt_image": "leetcode_850_555fbe81c89a.png"
+  },
+  {
+    "task_id": "leetcode_851",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_851_a862ba3fe431.png",
+    "prompt_image": "leetcode_851_a862ba3fe431.png"
+  },
+  {
+    "task_id": "leetcode_854",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_854_54e0df951f10.png",
+    "prompt_image": "leetcode_854_54e0df951f10.png"
+  },
+  {
+    "task_id": "leetcode_1116",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1116_601c07eaebfa.png",
+    "prompt_image": "leetcode_1116_601c07eaebfa.png"
+  },
+  {
+    "task_id": "leetcode_1117",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1117_192a2929d1ab.png",
+    "prompt_image": "leetcode_1117_192a2929d1ab.png"
+  },
+  {
+    "task_id": "leetcode_1118",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1118_ad888ffe2afe.png",
+    "prompt_image": "leetcode_1118_ad888ffe2afe.png"
+  },
+  {
+    "task_id": "leetcode_1119",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1119_abc37bf71e39.png",
+    "prompt_image": "leetcode_1119_abc37bf71e39.png"
+  },
+  {
+    "task_id": "leetcode_1120",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1120_facf3398eeeb.png",
+    "prompt_image": "leetcode_1120_facf3398eeeb.png"
+  },
+  {
+    "task_id": "leetcode_1121",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1121_859196715d3b.png",
+    "prompt_image": "leetcode_1121_859196715d3b.png"
+  },
+  {
+    "task_id": "leetcode_1124",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1124_14c07195f227.png",
+    "prompt_image": "leetcode_1124_14c07195f227.png"
+  },
+  {
+    "task_id": "leetcode_1125",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1125_5533ad08af69.png",
+    "prompt_image": "leetcode_1125_5533ad08af69.png"
+  },
+  {
+    "task_id": "leetcode_1127",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1127_e26c8af5301f.png",
+    "prompt_image": "leetcode_1127_e26c8af5301f.png"
+  },
+  {
+    "task_id": "leetcode_1129",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1129_0b5f7d06501f.png",
+    "prompt_image": "leetcode_1129_0b5f7d06501f.png"
+  },
+  {
+    "task_id": "leetcode_1161",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1161_dd6024756743.png",
+    "prompt_image": "leetcode_1161_dd6024756743.png"
+  },
+  {
+    "task_id": "leetcode_1162",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1162_008fc764daf2.png",
+    "prompt_image": "leetcode_1162_008fc764daf2.png"
+  },
+  {
+    "task_id": "leetcode_1163",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1163_d0065530f0ae.png",
+    "prompt_image": "leetcode_1163_d0065530f0ae.png"
+  },
+  {
+    "task_id": "leetcode_1165",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1165_d8ff16e8e4c3.png",
+    "prompt_image": "leetcode_1165_d8ff16e8e4c3.png"
+  },
+  {
+    "task_id": "leetcode_1168",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1168_2c5220c00406.png",
+    "prompt_image": "leetcode_1168_2c5220c00406.png"
+  },
+  {
+    "task_id": "leetcode_1170",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1170_8198f4e538af.png",
+    "prompt_image": "leetcode_1170_8198f4e538af.png"
+  },
+  {
+    "task_id": "leetcode_1171",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1171_a76e26a5b412.png",
+    "prompt_image": "leetcode_1171_a76e26a5b412.png"
+  },
+  {
+    "task_id": "leetcode_1172",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1172_4a6b394d7004.png",
+    "prompt_image": "leetcode_1172_4a6b394d7004.png"
+  },
+  {
+    "task_id": "leetcode_1173",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1173_336702c0a543.png",
+    "prompt_image": "leetcode_1173_336702c0a543.png"
+  },
+  {
+    "task_id": "leetcode_1174",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1174_15371c0643ee.png",
+    "prompt_image": "leetcode_1174_15371c0643ee.png"
+  },
+  {
+    "task_id": "leetcode_1175",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1175_1f6319ae8b39.png",
+    "prompt_image": "leetcode_1175_1f6319ae8b39.png"
+  },
+  {
+    "task_id": "leetcode_1176",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1176_ad91e0009f36.png",
+    "prompt_image": "leetcode_1176_ad91e0009f36.png"
+  },
+  {
+    "task_id": "leetcode_1177",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1177_bf5735ffa9fb.png",
+    "prompt_image": "leetcode_1177_bf5735ffa9fb.png"
+  },
+  {
+    "task_id": "leetcode_1178",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1178_11f361e49a1a.png",
+    "prompt_image": "leetcode_1178_11f361e49a1a.png"
+  },
+  {
+    "task_id": "leetcode_1179",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1179_8db553c3adc5.png",
+    "prompt_image": "leetcode_1179_8db553c3adc5.png"
+  },
+  {
+    "task_id": "leetcode_1180",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1180_326796b3e72a.png",
+    "prompt_image": "leetcode_1180_326796b3e72a.png"
+  },
+  {
+    "task_id": "leetcode_1181",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1181_7279fc38a6fb.png",
+    "prompt_image": "leetcode_1181_7279fc38a6fb.png"
+  },
+  {
+    "task_id": "leetcode_1183",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1183_acc980902b60.png",
+    "prompt_image": "leetcode_1183_acc980902b60.png"
+  },
+  {
+    "task_id": "leetcode_1184",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1184_ea86a4aa5c85.png",
+    "prompt_image": "leetcode_1184_ea86a4aa5c85.png"
+  },
+  {
+    "task_id": "leetcode_1185",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1185_7f5d0cab05f6.png",
+    "prompt_image": "leetcode_1185_7f5d0cab05f6.png"
+  },
+  {
+    "task_id": "leetcode_1186",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1186_bc91bc327d6f.png",
+    "prompt_image": "leetcode_1186_bc91bc327d6f.png"
+  },
+  {
+    "task_id": "leetcode_1189",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1189_6b4b22bca8d2.png",
+    "prompt_image": "leetcode_1189_6b4b22bca8d2.png"
+  },
+  {
+    "task_id": "leetcode_1190",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1190_047ef6aa2e9f.png",
+    "prompt_image": "leetcode_1190_047ef6aa2e9f.png"
+  },
+  {
+    "task_id": "leetcode_1191",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1191_ac451cd6d130.png",
+    "prompt_image": "leetcode_1191_ac451cd6d130.png"
+  },
+  {
+    "task_id": "leetcode_1192",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1192_cc9829ad680d.png",
+    "prompt_image": "leetcode_1192_cc9829ad680d.png"
+  },
+  {
+    "task_id": "leetcode_1200",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1200_6979451db519.png",
+    "prompt_image": "leetcode_1200_6979451db519.png"
+  },
+  {
+    "task_id": "leetcode_1202",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1202_3431f7f7afab.png",
+    "prompt_image": "leetcode_1202_3431f7f7afab.png"
+  },
+  {
+    "task_id": "leetcode_1203",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1203_21ee01e5df37.png",
+    "prompt_image": "leetcode_1203_21ee01e5df37.png"
+  },
+  {
+    "task_id": "leetcode_1209",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1209_5bbd70edd7b0.png",
+    "prompt_image": "leetcode_1209_5bbd70edd7b0.png"
+  },
+  {
+    "task_id": "leetcode_1259",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1259_91f2c7c3c35e.png",
+    "prompt_image": "leetcode_1259_91f2c7c3c35e.png"
+  },
+  {
+    "task_id": "leetcode_1260",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1260_17505e710322.png",
+    "prompt_image": "leetcode_1260_17505e710322.png"
+  },
+  {
+    "task_id": "leetcode_1261",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1261_0de43e3a9a5c.png",
+    "prompt_image": "leetcode_1261_0de43e3a9a5c.png"
+  },
+  {
+    "task_id": "leetcode_1263",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1263_5707032d849f.png",
+    "prompt_image": "leetcode_1263_5707032d849f.png"
+  },
+  {
+    "task_id": "leetcode_1265",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1265_8b1bac45d715.png",
+    "prompt_image": "leetcode_1265_8b1bac45d715.png"
+  },
+  {
+    "task_id": "leetcode_1267",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1267_8cd2e397333c.png",
+    "prompt_image": "leetcode_1267_8cd2e397333c.png"
+  },
+  {
+    "task_id": "leetcode_1268",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1268_189cb41a1b64.png",
+    "prompt_image": "leetcode_1268_189cb41a1b64.png"
+  },
+  {
+    "task_id": "leetcode_1270",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1270_f308355779ff.png",
+    "prompt_image": "leetcode_1270_f308355779ff.png"
+  },
+  {
+    "task_id": "leetcode_1271",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1271_85493948281c.png",
+    "prompt_image": "leetcode_1271_85493948281c.png"
+  },
+  {
+    "task_id": "leetcode_1272",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1272_345848b1b0e7.png",
+    "prompt_image": "leetcode_1272_345848b1b0e7.png"
+  },
+  {
+    "task_id": "leetcode_1309",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1309_bb3c5b67780d.png",
+    "prompt_image": "leetcode_1309_bb3c5b67780d.png"
+  },
+  {
+    "task_id": "leetcode_1310",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1310_a22034a8cd4f.png",
+    "prompt_image": "leetcode_1310_a22034a8cd4f.png"
+  },
+  {
+    "task_id": "leetcode_1311",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1311_2879fcd33aef.png",
+    "prompt_image": "leetcode_1311_2879fcd33aef.png"
+  },
+  {
+    "task_id": "leetcode_1312",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1312_84b08dd8ea6f.png",
+    "prompt_image": "leetcode_1312_84b08dd8ea6f.png"
+  },
+  {
+    "task_id": "leetcode_1314",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1314_f54507f3270a.png",
+    "prompt_image": "leetcode_1314_f54507f3270a.png"
+  },
+  {
+    "task_id": "leetcode_1316",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1316_364309cd811a.png",
+    "prompt_image": "leetcode_1316_364309cd811a.png"
+  },
+  {
+    "task_id": "leetcode_1318",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1318_7eaf529b7995.png",
+    "prompt_image": "leetcode_1318_7eaf529b7995.png"
+  },
+  {
+    "task_id": "leetcode_1319",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1319_fe1e720bc5c4.png",
+    "prompt_image": "leetcode_1319_fe1e720bc5c4.png"
+  },
+  {
+    "task_id": "leetcode_1320",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1320_e52d995df0ee.png",
+    "prompt_image": "leetcode_1320_e52d995df0ee.png"
+  },
+  {
+    "task_id": "leetcode_1321",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1321_83986b0c0da6.png",
+    "prompt_image": "leetcode_1321_83986b0c0da6.png"
+  },
+  {
+    "task_id": "leetcode_1426",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1426_e2f6e0dd48fb.png",
+    "prompt_image": "leetcode_1426_e2f6e0dd48fb.png"
+  },
+  {
+    "task_id": "leetcode_1427",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1427_5ba691c62683.png",
+    "prompt_image": "leetcode_1427_5ba691c62683.png"
+  },
+  {
+    "task_id": "leetcode_1428",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1428_0cab75cb169a.png",
+    "prompt_image": "leetcode_1428_0cab75cb169a.png"
+  },
+  {
+    "task_id": "leetcode_1429",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1429_9b42abf89f49.png",
+    "prompt_image": "leetcode_1429_9b42abf89f49.png"
+  },
+  {
+    "task_id": "leetcode_1430",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1430_04642b376e39.png",
+    "prompt_image": "leetcode_1430_04642b376e39.png"
+  },
+  {
+    "task_id": "leetcode_1431",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1431_263d5a16a629.png",
+    "prompt_image": "leetcode_1431_263d5a16a629.png"
+  },
+  {
+    "task_id": "leetcode_1435",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1435_a5243fb53993.png",
+    "prompt_image": "leetcode_1435_a5243fb53993.png"
+  },
+  {
+    "task_id": "leetcode_1436",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1436_03421537aa66.png",
+    "prompt_image": "leetcode_1436_03421537aa66.png"
+  },
+  {
+    "task_id": "leetcode_1437",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1437_4e8b58ab721b.png",
+    "prompt_image": "leetcode_1437_4e8b58ab721b.png"
+  },
+  {
+    "task_id": "leetcode_1438",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1438_f8dd59558bac.png",
+    "prompt_image": "leetcode_1438_f8dd59558bac.png"
+  },
+  {
+    "task_id": "leetcode_1439",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1439_f6f4e49bde5b.png",
+    "prompt_image": "leetcode_1439_f6f4e49bde5b.png"
+  },
+  {
+    "task_id": "leetcode_1442",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1442_fb0398b3da17.png",
+    "prompt_image": "leetcode_1442_fb0398b3da17.png"
+  },
+  {
+    "task_id": "leetcode_1445",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1445_071e377876c4.png",
+    "prompt_image": "leetcode_1445_071e377876c4.png"
+  },
+  {
+    "task_id": "leetcode_1446",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1446_48fdb1846c61.png",
+    "prompt_image": "leetcode_1446_48fdb1846c61.png"
+  },
+  {
+    "task_id": "leetcode_1449",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1449_1e928e9d383c.png",
+    "prompt_image": "leetcode_1449_1e928e9d383c.png"
+  },
+  {
+    "task_id": "leetcode_1453",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1453_182cc46def09.png",
+    "prompt_image": "leetcode_1453_182cc46def09.png"
+  },
+  {
+    "task_id": "leetcode_1454",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1454_3b8c5891faa2.png",
+    "prompt_image": "leetcode_1454_3b8c5891faa2.png"
+  },
+  {
+    "task_id": "leetcode_1456",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1456_40645d52d773.png",
+    "prompt_image": "leetcode_1456_40645d52d773.png"
+  },
+  {
+    "task_id": "leetcode_1459",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1459_566eab8fc4e3.png",
+    "prompt_image": "leetcode_1459_566eab8fc4e3.png"
+  },
+  {
+    "task_id": "leetcode_1460",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1460_3a07fd98073a.png",
+    "prompt_image": "leetcode_1460_3a07fd98073a.png"
+  },
+  {
+    "task_id": "leetcode_1461",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1461_0baec23302fe.png",
+    "prompt_image": "leetcode_1461_0baec23302fe.png"
+  },
+  {
+    "task_id": "leetcode_1462",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1462_b61e03e9f4ea.png",
+    "prompt_image": "leetcode_1462_b61e03e9f4ea.png"
+  },
+  {
+    "task_id": "leetcode_1463",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1463_b7ffeeb4465f.png",
+    "prompt_image": "leetcode_1463_b7ffeeb4465f.png"
+  },
+  {
+    "task_id": "leetcode_1464",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1464_b4d4ee218c58.png",
+    "prompt_image": "leetcode_1464_b4d4ee218c58.png"
+  },
+  {
+    "task_id": "leetcode_1467",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1467_57d0dd287f22.png",
+    "prompt_image": "leetcode_1467_57d0dd287f22.png"
+  },
+  {
+    "task_id": "leetcode_1468",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1468_76c6cac44126.png",
+    "prompt_image": "leetcode_1468_76c6cac44126.png"
+  },
+  {
+    "task_id": "leetcode_1469",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1469_0574c6ac3832.png",
+    "prompt_image": "leetcode_1469_0574c6ac3832.png"
+  },
+  {
+    "task_id": "leetcode_1470",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1470_2cc7b3d16bc3.png",
+    "prompt_image": "leetcode_1470_2cc7b3d16bc3.png"
+  },
+  {
+    "task_id": "leetcode_1472",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1472_b375bf223de2.png",
+    "prompt_image": "leetcode_1472_b375bf223de2.png"
+  },
+  {
+    "task_id": "leetcode_1473",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1473_c1a99d8d2703.png",
+    "prompt_image": "leetcode_1473_c1a99d8d2703.png"
+  },
+  {
+    "task_id": "leetcode_1474",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1474_75536f6425b2.png",
+    "prompt_image": "leetcode_1474_75536f6425b2.png"
+  },
+  {
+    "task_id": "leetcode_1475",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1475_78b1c0192fda.png",
+    "prompt_image": "leetcode_1475_78b1c0192fda.png"
+  },
+  {
+    "task_id": "leetcode_1476",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1476_cdf88073c105.png",
+    "prompt_image": "leetcode_1476_cdf88073c105.png"
+  },
+  {
+    "task_id": "leetcode_1477",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1477_670979530151.png",
+    "prompt_image": "leetcode_1477_670979530151.png"
+  },
+  {
+    "task_id": "leetcode_1478",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1478_4efe53c1eab6.png",
+    "prompt_image": "leetcode_1478_4efe53c1eab6.png"
+  },
+  {
+    "task_id": "leetcode_1479",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1479_b63a52867c97.png",
+    "prompt_image": "leetcode_1479_b63a52867c97.png"
+  },
+  {
+    "task_id": "leetcode_1481",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1481_a76e80f465a4.png",
+    "prompt_image": "leetcode_1481_a76e80f465a4.png"
+  },
+  {
+    "task_id": "leetcode_1484",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1484_8b22b11898fe.png",
+    "prompt_image": "leetcode_1484_8b22b11898fe.png"
+  },
+  {
+    "task_id": "leetcode_1485",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1485_f4b9bff1cb9c.png",
+    "prompt_image": "leetcode_1485_f4b9bff1cb9c.png"
+  },
+  {
+    "task_id": "leetcode_1487",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1487_8b8a32868d57.png",
+    "prompt_image": "leetcode_1487_8b8a32868d57.png"
+  },
+  {
+    "task_id": "leetcode_1488",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1488_e78b57a79121.png",
+    "prompt_image": "leetcode_1488_e78b57a79121.png"
+  },
+  {
+    "task_id": "leetcode_1489",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1489_0479dfbe20b7.png",
+    "prompt_image": "leetcode_1489_0479dfbe20b7.png"
+  },
+  {
+    "task_id": "leetcode_1490",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1490_740b7909e4df.png",
+    "prompt_image": "leetcode_1490_740b7909e4df.png"
+  },
+  {
+    "task_id": "leetcode_1492",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1492_064d17cb66a4.png",
+    "prompt_image": "leetcode_1492_064d17cb66a4.png"
+  },
+  {
+    "task_id": "leetcode_1493",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1493_33c6456506e7.png",
+    "prompt_image": "leetcode_1493_33c6456506e7.png"
+  },
+  {
+    "task_id": "leetcode_1753",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1753_6e5e108d81ed.png",
+    "prompt_image": "leetcode_1753_6e5e108d81ed.png"
+  },
+  {
+    "task_id": "leetcode_1754",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1754_0323a9018595.png",
+    "prompt_image": "leetcode_1754_0323a9018595.png"
+  },
+  {
+    "task_id": "leetcode_1755",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1755_eae09ddb2011.png",
+    "prompt_image": "leetcode_1755_eae09ddb2011.png"
+  },
+  {
+    "task_id": "leetcode_1756",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1756_9e8fb7475f61.png",
+    "prompt_image": "leetcode_1756_9e8fb7475f61.png"
+  },
+  {
+    "task_id": "leetcode_1757",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1757_9524e06e56a0.png",
+    "prompt_image": "leetcode_1757_9524e06e56a0.png"
+  },
+  {
+    "task_id": "leetcode_1759",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1759_a1f431419274.png",
+    "prompt_image": "leetcode_1759_a1f431419274.png"
+  },
+  {
+    "task_id": "leetcode_1760",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1760_21766eafd29a.png",
+    "prompt_image": "leetcode_1760_21766eafd29a.png"
+  },
+  {
+    "task_id": "leetcode_1761",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1761_b3a0afe996b9.png",
+    "prompt_image": "leetcode_1761_b3a0afe996b9.png"
+  },
+  {
+    "task_id": "leetcode_1762",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1762_84077e47df21.png",
+    "prompt_image": "leetcode_1762_84077e47df21.png"
+  },
+  {
+    "task_id": "leetcode_1763",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1763_7b7cfedf936a.png",
+    "prompt_image": "leetcode_1763_7b7cfedf936a.png"
+  },
+  {
+    "task_id": "leetcode_1797",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1797_f94fbcc80876.png",
+    "prompt_image": "leetcode_1797_f94fbcc80876.png"
+  },
+  {
+    "task_id": "leetcode_1798",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1798_1d437b3974e7.png",
+    "prompt_image": "leetcode_1798_1d437b3974e7.png"
+  },
+  {
+    "task_id": "leetcode_1799",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1799_80e1cf018587.png",
+    "prompt_image": "leetcode_1799_80e1cf018587.png"
+  },
+  {
+    "task_id": "leetcode_1800",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1800_8ba9169910a6.png",
+    "prompt_image": "leetcode_1800_8ba9169910a6.png"
+  },
+  {
+    "task_id": "leetcode_1801",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1801_b4d242bbad82.png",
+    "prompt_image": "leetcode_1801_b4d242bbad82.png"
+  },
+  {
+    "task_id": "leetcode_1844",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_1844_e4d7cf445c4a.png",
+    "prompt_image": "leetcode_1844_e4d7cf445c4a.png"
+  },
+  {
+    "task_id": "leetcode_2076",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2076_7e789a64476a.png",
+    "prompt_image": "leetcode_2076_7e789a64476a.png"
+  },
+  {
+    "task_id": "leetcode_2078",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2078_beaa17151a3d.png",
+    "prompt_image": "leetcode_2078_beaa17151a3d.png"
+  },
+  {
+    "task_id": "leetcode_2080",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2080_fe5ef6f8dcfc.png",
+    "prompt_image": "leetcode_2080_fe5ef6f8dcfc.png"
+  },
+  {
+    "task_id": "leetcode_2081",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2081_735e77fc4edc.png",
+    "prompt_image": "leetcode_2081_735e77fc4edc.png"
+  },
+  {
+    "task_id": "leetcode_2083",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2083_b1112fd80759.png",
+    "prompt_image": "leetcode_2083_b1112fd80759.png"
+  },
+  {
+    "task_id": "leetcode_2084",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2084_e1dae459764a.png",
+    "prompt_image": "leetcode_2084_e1dae459764a.png"
+  },
+  {
+    "task_id": "leetcode_2087",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2087_0a682337ccb1.png",
+    "prompt_image": "leetcode_2087_0a682337ccb1.png"
+  },
+  {
+    "task_id": "leetcode_2090",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2090_e17f770c8fb8.png",
+    "prompt_image": "leetcode_2090_e17f770c8fb8.png"
+  },
+  {
+    "task_id": "leetcode_2091",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2091_3594f5415aeb.png",
+    "prompt_image": "leetcode_2091_3594f5415aeb.png"
+  },
+  {
+    "task_id": "leetcode_2092",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2092_354dd211621f.png",
+    "prompt_image": "leetcode_2092_354dd211621f.png"
+  },
+  {
+    "task_id": "leetcode_2093",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2093_5ca35d3a344d.png",
+    "prompt_image": "leetcode_2093_5ca35d3a344d.png"
+  },
+  {
+    "task_id": "leetcode_2094",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2094_83d6e8b91ea8.png",
+    "prompt_image": "leetcode_2094_83d6e8b91ea8.png"
+  },
+  {
+    "task_id": "leetcode_2095",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2095_27cb3cef7446.png",
+    "prompt_image": "leetcode_2095_27cb3cef7446.png"
+  },
+  {
+    "task_id": "leetcode_2096",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2096_76f817ecb659.png",
+    "prompt_image": "leetcode_2096_76f817ecb659.png"
+  },
+  {
+    "task_id": "leetcode_2097",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2097_b7ca929b1293.png",
+    "prompt_image": "leetcode_2097_b7ca929b1293.png"
+  },
+  {
+    "task_id": "leetcode_2098",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2098_7cb30e7fc2a2.png",
+    "prompt_image": "leetcode_2098_7cb30e7fc2a2.png"
+  },
+  {
+    "task_id": "leetcode_2101",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2101_c44ed188873d.png",
+    "prompt_image": "leetcode_2101_c44ed188873d.png"
+  },
+  {
+    "task_id": "leetcode_2102",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2102_a44c8636173c.png",
+    "prompt_image": "leetcode_2102_a44c8636173c.png"
+  },
+  {
+    "task_id": "leetcode_2103",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2103_967a71cce41b.png",
+    "prompt_image": "leetcode_2103_967a71cce41b.png"
+  },
+  {
+    "task_id": "leetcode_2104",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2104_d19f82290af8.png",
+    "prompt_image": "leetcode_2104_d19f82290af8.png"
+  },
+  {
+    "task_id": "leetcode_2106",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2106_8686fbb99f37.png",
+    "prompt_image": "leetcode_2106_8686fbb99f37.png"
+  },
+  {
+    "task_id": "leetcode_2108",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2108_24434145e600.png",
+    "prompt_image": "leetcode_2108_24434145e600.png"
+  },
+  {
+    "task_id": "leetcode_2109",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2109_79a0c41fb878.png",
+    "prompt_image": "leetcode_2109_79a0c41fb878.png"
+  },
+  {
+    "task_id": "leetcode_2110",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2110_f3ae3f5bda45.png",
+    "prompt_image": "leetcode_2110_f3ae3f5bda45.png"
+  },
+  {
+    "task_id": "leetcode_2111",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2111_fd4bcd0cf8e5.png",
+    "prompt_image": "leetcode_2111_fd4bcd0cf8e5.png"
+  },
+  {
+    "task_id": "leetcode_2153",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2153_382b9b0f4f2d.png",
+    "prompt_image": "leetcode_2153_382b9b0f4f2d.png"
+  },
+  {
+    "task_id": "leetcode_2154",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2154_7a2bbd51fc48.png",
+    "prompt_image": "leetcode_2154_7a2bbd51fc48.png"
+  },
+  {
+    "task_id": "leetcode_2159",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2159_c62501026b66.png",
+    "prompt_image": "leetcode_2159_c62501026b66.png"
+  },
+  {
+    "task_id": "leetcode_2160",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2160_69747b384ec3.png",
+    "prompt_image": "leetcode_2160_69747b384ec3.png"
+  },
+  {
+    "task_id": "leetcode_2161",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2161_2571c2c64eb0.png",
+    "prompt_image": "leetcode_2161_2571c2c64eb0.png"
+  },
+  {
+    "task_id": "leetcode_2412",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2412_80d7f8d6c8f5.png",
+    "prompt_image": "leetcode_2412_80d7f8d6c8f5.png"
+  },
+  {
+    "task_id": "leetcode_2413",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2413_cfa8ece8cb5a.png",
+    "prompt_image": "leetcode_2413_cfa8ece8cb5a.png"
+  },
+  {
+    "task_id": "leetcode_2415",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2415_ff3a0c564b8e.png",
+    "prompt_image": "leetcode_2415_ff3a0c564b8e.png"
+  },
+  {
+    "task_id": "leetcode_2416",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2416_f006c3eea666.png",
+    "prompt_image": "leetcode_2416_f006c3eea666.png"
+  },
+  {
+    "task_id": "leetcode_2418",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2418_8930132d5c26.png",
+    "prompt_image": "leetcode_2418_8930132d5c26.png"
+  },
+  {
+    "task_id": "leetcode_2420",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2420_ffb285b0ac42.png",
+    "prompt_image": "leetcode_2420_ffb285b0ac42.png"
+  },
+  {
+    "task_id": "leetcode_2421",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2421_fca4213ca684.png",
+    "prompt_image": "leetcode_2421_fca4213ca684.png"
+  },
+  {
+    "task_id": "leetcode_2422",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2422_e7ef2c1f3fa5.png",
+    "prompt_image": "leetcode_2422_e7ef2c1f3fa5.png"
+  },
+  {
+    "task_id": "leetcode_2424",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2424_8b88ff0e173f.png",
+    "prompt_image": "leetcode_2424_8b88ff0e173f.png"
+  },
+  {
+    "task_id": "leetcode_2425",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2425_ef47407a2aff.png",
+    "prompt_image": "leetcode_2425_ef47407a2aff.png"
+  },
+  {
+    "task_id": "leetcode_2426",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2426_9dcb0fc43551.png",
+    "prompt_image": "leetcode_2426_9dcb0fc43551.png"
+  },
+  {
+    "task_id": "leetcode_2428",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2428_561c51dcbd0b.png",
+    "prompt_image": "leetcode_2428_561c51dcbd0b.png"
+  },
+  {
+    "task_id": "leetcode_2431",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2431_2cdf1c15d94b.png",
+    "prompt_image": "leetcode_2431_2cdf1c15d94b.png"
+  },
+  {
+    "task_id": "leetcode_2432",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2432_2e8de6e3d1d3.png",
+    "prompt_image": "leetcode_2432_2e8de6e3d1d3.png"
+  },
+  {
+    "task_id": "leetcode_2435",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2435_5308c3268601.png",
+    "prompt_image": "leetcode_2435_5308c3268601.png"
+  },
+  {
+    "task_id": "leetcode_2436",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2436_f8d9e5de3633.png",
+    "prompt_image": "leetcode_2436_f8d9e5de3633.png"
+  },
+  {
+    "task_id": "leetcode_2439",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2439_a82466b10b76.png",
+    "prompt_image": "leetcode_2439_a82466b10b76.png"
+  },
+  {
+    "task_id": "leetcode_2440",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2440_6252c5080dc6.png",
+    "prompt_image": "leetcode_2440_6252c5080dc6.png"
+  },
+  {
+    "task_id": "leetcode_2441",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2441_91f96ed47318.png",
+    "prompt_image": "leetcode_2441_91f96ed47318.png"
+  },
+  {
+    "task_id": "leetcode_2445",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2445_277b0de76c87.png",
+    "prompt_image": "leetcode_2445_277b0de76c87.png"
+  },
+  {
+    "task_id": "leetcode_2467",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2467_630c506f5e9c.png",
+    "prompt_image": "leetcode_2467_630c506f5e9c.png"
+  },
+  {
+    "task_id": "leetcode_2469",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2469_642ec0d378bf.png",
+    "prompt_image": "leetcode_2469_642ec0d378bf.png"
+  },
+  {
+    "task_id": "leetcode_2470",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2470_15a0eaeaf5ad.png",
+    "prompt_image": "leetcode_2470_15a0eaeaf5ad.png"
+  },
+  {
+    "task_id": "leetcode_2471",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2471_e3af2fea393f.png",
+    "prompt_image": "leetcode_2471_e3af2fea393f.png"
+  },
+  {
+    "task_id": "leetcode_2472",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2472_6b481ef7228e.png",
+    "prompt_image": "leetcode_2472_6b481ef7228e.png"
+  },
+  {
+    "task_id": "leetcode_2474",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2474_6b6dc545a52a.png",
+    "prompt_image": "leetcode_2474_6b6dc545a52a.png"
+  },
+  {
+    "task_id": "leetcode_2475",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2475_a9eb71aa5454.png",
+    "prompt_image": "leetcode_2475_a9eb71aa5454.png"
+  },
+  {
+    "task_id": "leetcode_2477",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2477_a7bca825284b.png",
+    "prompt_image": "leetcode_2477_a7bca825284b.png"
+  },
+  {
+    "task_id": "leetcode_2479",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2479_47e6a4598883.png",
+    "prompt_image": "leetcode_2479_47e6a4598883.png"
+  },
+  {
+    "task_id": "leetcode_2480",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2480_80ff6d4c3e44.png",
+    "prompt_image": "leetcode_2480_80ff6d4c3e44.png"
+  },
+  {
+    "task_id": "leetcode_2509",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2509_2876f76f6499.png",
+    "prompt_image": "leetcode_2509_2876f76f6499.png"
+  },
+  {
+    "task_id": "leetcode_2511",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2511_4d2a9e431884.png",
+    "prompt_image": "leetcode_2511_4d2a9e431884.png"
+  },
+  {
+    "task_id": "leetcode_2513",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2513_c25a466a8458.png",
+    "prompt_image": "leetcode_2513_c25a466a8458.png"
+  },
+  {
+    "task_id": "leetcode_2514",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2514_703f4383371b.png",
+    "prompt_image": "leetcode_2514_703f4383371b.png"
+  },
+  {
+    "task_id": "leetcode_2516",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2516_9c61ace42881.png",
+    "prompt_image": "leetcode_2516_9c61ace42881.png"
+  },
+  {
+    "task_id": "leetcode_2517",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2517_fe47e7d3b4ff.png",
+    "prompt_image": "leetcode_2517_fe47e7d3b4ff.png"
+  },
+  {
+    "task_id": "leetcode_2518",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2518_55a4326f1361.png",
+    "prompt_image": "leetcode_2518_55a4326f1361.png"
+  },
+  {
+    "task_id": "leetcode_2519",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2519_c3250028011f.png",
+    "prompt_image": "leetcode_2519_c3250028011f.png"
+  },
+  {
+    "task_id": "leetcode_2520",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2520_4b8690713281.png",
+    "prompt_image": "leetcode_2520_4b8690713281.png"
+  },
+  {
+    "task_id": "leetcode_2521",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2521_51401258a923.png",
+    "prompt_image": "leetcode_2521_51401258a923.png"
+  },
+  {
+    "task_id": "leetcode_2522",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2522_698f322107d4.png",
+    "prompt_image": "leetcode_2522_698f322107d4.png"
+  },
+  {
+    "task_id": "leetcode_2525",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2525_28edd7e55858.png",
+    "prompt_image": "leetcode_2525_28edd7e55858.png"
+  },
+  {
+    "task_id": "leetcode_2526",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2526_bda197106fe1.png",
+    "prompt_image": "leetcode_2526_bda197106fe1.png"
+  },
+  {
+    "task_id": "leetcode_2527",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2527_7401176e59fb.png",
+    "prompt_image": "leetcode_2527_7401176e59fb.png"
+  },
+  {
+    "task_id": "leetcode_2528",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2528_96a1db6d8806.png",
+    "prompt_image": "leetcode_2528_96a1db6d8806.png"
+  },
+  {
+    "task_id": "leetcode_2529",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2529_81e64160bec0.png",
+    "prompt_image": "leetcode_2529_81e64160bec0.png"
+  },
+  {
+    "task_id": "leetcode_2574",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2574_e4da670e51ff.png",
+    "prompt_image": "leetcode_2574_e4da670e51ff.png"
+  },
+  {
+    "task_id": "leetcode_2576",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2576_65b94db32116.png",
+    "prompt_image": "leetcode_2576_65b94db32116.png"
+  },
+  {
+    "task_id": "leetcode_2577",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2577_52c3500420a0.png",
+    "prompt_image": "leetcode_2577_52c3500420a0.png"
+  },
+  {
+    "task_id": "leetcode_2578",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2578_14bc2de6868e.png",
+    "prompt_image": "leetcode_2578_14bc2de6868e.png"
+  },
+  {
+    "task_id": "leetcode_2579",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2579_15d8c2939c3e.png",
+    "prompt_image": "leetcode_2579_15d8c2939c3e.png"
+  },
+  {
+    "task_id": "leetcode_2580",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2580_d1de94f886d5.png",
+    "prompt_image": "leetcode_2580_d1de94f886d5.png"
+  },
+  {
+    "task_id": "leetcode_2582",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2582_c0a8493664d2.png",
+    "prompt_image": "leetcode_2582_c0a8493664d2.png"
+  },
+  {
+    "task_id": "leetcode_2584",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2584_27e2c6e37d3c.png",
+    "prompt_image": "leetcode_2584_27e2c6e37d3c.png"
+  },
+  {
+    "task_id": "leetcode_2586",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2586_558de855ae34.png",
+    "prompt_image": "leetcode_2586_558de855ae34.png"
+  },
+  {
+    "task_id": "leetcode_2587",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2587_2e654ceae661.png",
+    "prompt_image": "leetcode_2587_2e654ceae661.png"
+  },
+  {
+    "task_id": "leetcode_2588",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2588_b00ea2da1899.png",
+    "prompt_image": "leetcode_2588_b00ea2da1899.png"
+  },
+  {
+    "task_id": "leetcode_2590",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2590_df77762c56d0.png",
+    "prompt_image": "leetcode_2590_df77762c56d0.png"
+  },
+  {
+    "task_id": "leetcode_2591",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2591_ba61040fdf02.png",
+    "prompt_image": "leetcode_2591_ba61040fdf02.png"
+  },
+  {
+    "task_id": "leetcode_2593",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2593_6d913744fa11.png",
+    "prompt_image": "leetcode_2593_6d913744fa11.png"
+  },
+  {
+    "task_id": "leetcode_2594",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2594_484e09b92aa9.png",
+    "prompt_image": "leetcode_2594_484e09b92aa9.png"
+  },
+  {
+    "task_id": "leetcode_2595",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2595_d498d33271cd.png",
+    "prompt_image": "leetcode_2595_d498d33271cd.png"
+  },
+  {
+    "task_id": "leetcode_2596",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2596_43d03cf783c3.png",
+    "prompt_image": "leetcode_2596_43d03cf783c3.png"
+  },
+  {
+    "task_id": "leetcode_2597",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2597_e9927c40b937.png",
+    "prompt_image": "leetcode_2597_e9927c40b937.png"
+  },
+  {
+    "task_id": "leetcode_2598",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2598_c4c55ea6888d.png",
+    "prompt_image": "leetcode_2598_c4c55ea6888d.png"
+  },
+  {
+    "task_id": "leetcode_2613",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2613_863dea727774.png",
+    "prompt_image": "leetcode_2613_863dea727774.png"
+  },
+  {
+    "task_id": "leetcode_2615",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2615_85d569de0cbd.png",
+    "prompt_image": "leetcode_2615_85d569de0cbd.png"
+  },
+  {
+    "task_id": "leetcode_2616",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2616_d5ca131e399a.png",
+    "prompt_image": "leetcode_2616_d5ca131e399a.png"
+  },
+  {
+    "task_id": "leetcode_2619",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2619_e8d0ddff2f7e.png",
+    "prompt_image": "leetcode_2619_e8d0ddff2f7e.png"
+  },
+  {
+    "task_id": "leetcode_2620",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2620_fff9127a7675.png",
+    "prompt_image": "leetcode_2620_fff9127a7675.png"
+  },
+  {
+    "task_id": "leetcode_2622",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2622_ea8bf819c0e1.png",
+    "prompt_image": "leetcode_2622_ea8bf819c0e1.png"
+  },
+  {
+    "task_id": "leetcode_2623",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2623_5a8054b556c0.png",
+    "prompt_image": "leetcode_2623_5a8054b556c0.png"
+  },
+  {
+    "task_id": "leetcode_2624",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2624_8d6ba0685d7c.png",
+    "prompt_image": "leetcode_2624_8d6ba0685d7c.png"
+  },
+  {
+    "task_id": "leetcode_2625",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2625_ceae12ad7b17.png",
+    "prompt_image": "leetcode_2625_ceae12ad7b17.png"
+  },
+  {
+    "task_id": "leetcode_2626",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2626_e8325ce84c13.png",
+    "prompt_image": "leetcode_2626_e8325ce84c13.png"
+  },
+  {
+    "task_id": "leetcode_2627",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2627_87a48059c7c2.png",
+    "prompt_image": "leetcode_2627_87a48059c7c2.png"
+  },
+  {
+    "task_id": "leetcode_2629",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2629_dafea574afa8.png",
+    "prompt_image": "leetcode_2629_dafea574afa8.png"
+  },
+  {
+    "task_id": "leetcode_2630",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2630_41452c382f7a.png",
+    "prompt_image": "leetcode_2630_41452c382f7a.png"
+  },
+  {
+    "task_id": "leetcode_2632",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2632_84592578af61.png",
+    "prompt_image": "leetcode_2632_84592578af61.png"
+  },
+  {
+    "task_id": "leetcode_2633",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2633_a63de0e263e0.png",
+    "prompt_image": "leetcode_2633_a63de0e263e0.png"
+  },
+  {
+    "task_id": "leetcode_2678",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2678_0affe11a795f.png",
+    "prompt_image": "leetcode_2678_0affe11a795f.png"
+  },
+  {
+    "task_id": "leetcode_2679",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2679_8801d11231ac.png",
+    "prompt_image": "leetcode_2679_8801d11231ac.png"
+  },
+  {
+    "task_id": "leetcode_2680",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2680_5e9e4970d1d7.png",
+    "prompt_image": "leetcode_2680_5e9e4970d1d7.png"
+  },
+  {
+    "task_id": "leetcode_2681",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2681_2e563347b58b.png",
+    "prompt_image": "leetcode_2681_2e563347b58b.png"
+  },
+  {
+    "task_id": "leetcode_2682",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2682_df4c87eccd4a.png",
+    "prompt_image": "leetcode_2682_df4c87eccd4a.png"
+  },
+  {
+    "task_id": "leetcode_2683",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2683_7f5d80ee8db4.png",
+    "prompt_image": "leetcode_2683_7f5d80ee8db4.png"
+  },
+  {
+    "task_id": "leetcode_2686",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2686_ff98067277cc.png",
+    "prompt_image": "leetcode_2686_ff98067277cc.png"
+  },
+  {
+    "task_id": "leetcode_2687",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2687_594ae3a2d304.png",
+    "prompt_image": "leetcode_2687_594ae3a2d304.png"
+  },
+  {
+    "task_id": "leetcode_2690",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2690_247b7a5f5b9a.png",
+    "prompt_image": "leetcode_2690_247b7a5f5b9a.png"
+  },
+  {
+    "task_id": "leetcode_2691",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2691_42deec81b969.png",
+    "prompt_image": "leetcode_2691_42deec81b969.png"
+  },
+  {
+    "task_id": "leetcode_2692",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2692_3c49e5b31626.png",
+    "prompt_image": "leetcode_2692_3c49e5b31626.png"
+  },
+  {
+    "task_id": "leetcode_2693",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2693_dcb7de0d7fd5.png",
+    "prompt_image": "leetcode_2693_dcb7de0d7fd5.png"
+  },
+  {
+    "task_id": "leetcode_2694",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2694_bdb2695fc7f5.png",
+    "prompt_image": "leetcode_2694_bdb2695fc7f5.png"
+  },
+  {
+    "task_id": "leetcode_2695",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2695_f92272123db4.png",
+    "prompt_image": "leetcode_2695_f92272123db4.png"
+  },
+  {
+    "task_id": "leetcode_2697",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2697_65782e91af1f.png",
+    "prompt_image": "leetcode_2697_65782e91af1f.png"
+  },
+  {
+    "task_id": "leetcode_2724",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2724_9a3aa5d336b1.png",
+    "prompt_image": "leetcode_2724_9a3aa5d336b1.png"
+  },
+  {
+    "task_id": "leetcode_2725",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2725_025717017f6f.png",
+    "prompt_image": "leetcode_2725_025717017f6f.png"
+  },
+  {
+    "task_id": "leetcode_2727",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2727_adee94047434.png",
+    "prompt_image": "leetcode_2727_adee94047434.png"
+  },
+  {
+    "task_id": "leetcode_2728",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2728_001bc01ce8fc.png",
+    "prompt_image": "leetcode_2728_001bc01ce8fc.png"
+  },
+  {
+    "task_id": "leetcode_2758",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2758_a6aefab682f5.png",
+    "prompt_image": "leetcode_2758_a6aefab682f5.png"
+  },
+  {
+    "task_id": "leetcode_2759",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2759_84d35ddbc9b6.png",
+    "prompt_image": "leetcode_2759_84d35ddbc9b6.png"
+  },
+  {
+    "task_id": "leetcode_2760",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2760_29aff2e85460.png",
+    "prompt_image": "leetcode_2760_29aff2e85460.png"
+  },
+  {
+    "task_id": "leetcode_2761",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2761_c0092e78e5b9.png",
+    "prompt_image": "leetcode_2761_c0092e78e5b9.png"
+  },
+  {
+    "task_id": "leetcode_2762",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2762_0d5ed50e8e3c.png",
+    "prompt_image": "leetcode_2762_0d5ed50e8e3c.png"
+  },
+  {
+    "task_id": "leetcode_2764",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2764_9f168396bb1d.png",
+    "prompt_image": "leetcode_2764_9f168396bb1d.png"
+  },
+  {
+    "task_id": "leetcode_2766",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2766_7bd4520e8c19.png",
+    "prompt_image": "leetcode_2766_7bd4520e8c19.png"
+  },
+  {
+    "task_id": "leetcode_2767",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2767_edf4ee8e3c54.png",
+    "prompt_image": "leetcode_2767_edf4ee8e3c54.png"
+  },
+  {
+    "task_id": "leetcode_2769",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2769_cf216356f881.png",
+    "prompt_image": "leetcode_2769_cf216356f881.png"
+  },
+  {
+    "task_id": "leetcode_2770",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2770_6b1f70237cdc.png",
+    "prompt_image": "leetcode_2770_6b1f70237cdc.png"
+  },
+  {
+    "task_id": "leetcode_2773",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2773_df5f3d99fdfe.png",
+    "prompt_image": "leetcode_2773_df5f3d99fdfe.png"
+  },
+  {
+    "task_id": "leetcode_2774",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2774_2672307c83d2.png",
+    "prompt_image": "leetcode_2774_2672307c83d2.png"
+  },
+  {
+    "task_id": "leetcode_2775",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2775_fc7a3dae0336.png",
+    "prompt_image": "leetcode_2775_fc7a3dae0336.png"
+  },
+  {
+    "task_id": "leetcode_2776",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2776_10c82d6a6a32.png",
+    "prompt_image": "leetcode_2776_10c82d6a6a32.png"
+  },
+  {
+    "task_id": "leetcode_2778",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2778_9e0d1f2de0a2.png",
+    "prompt_image": "leetcode_2778_9e0d1f2de0a2.png"
+  },
+  {
+    "task_id": "leetcode_2788",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2788_9e1f829ca3d0.png",
+    "prompt_image": "leetcode_2788_9e1f829ca3d0.png"
+  },
+  {
+    "task_id": "leetcode_2790",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2790_e9109200e78e.png",
+    "prompt_image": "leetcode_2790_e9109200e78e.png"
+  },
+  {
+    "task_id": "leetcode_2791",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2791_6c6f3313fd2c.png",
+    "prompt_image": "leetcode_2791_6c6f3313fd2c.png"
+  },
+  {
+    "task_id": "leetcode_2792",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2792_3f1e23d6780e.png",
+    "prompt_image": "leetcode_2792_3f1e23d6780e.png"
+  },
+  {
+    "task_id": "leetcode_2793",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2793_af6d2e157928.png",
+    "prompt_image": "leetcode_2793_af6d2e157928.png"
+  },
+  {
+    "task_id": "leetcode_2795",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2795_6be5d8b37d5c.png",
+    "prompt_image": "leetcode_2795_6be5d8b37d5c.png"
+  },
+  {
+    "task_id": "leetcode_2797",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2797_84ec5b229418.png",
+    "prompt_image": "leetcode_2797_84ec5b229418.png"
+  },
+  {
+    "task_id": "leetcode_2801",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2801_3285f5f8b3d8.png",
+    "prompt_image": "leetcode_2801_3285f5f8b3d8.png"
+  },
+  {
+    "task_id": "leetcode_2808",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2808_0fea548bc595.png",
+    "prompt_image": "leetcode_2808_0fea548bc595.png"
+  },
+  {
+    "task_id": "leetcode_2812",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2812_b9700b228032.png",
+    "prompt_image": "leetcode_2812_b9700b228032.png"
+  },
+  {
+    "task_id": "leetcode_2848",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2848_cfb0e86c59a0.png",
+    "prompt_image": "leetcode_2848_cfb0e86c59a0.png"
+  },
+  {
+    "task_id": "leetcode_2850",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2850_640c346bcc31.png",
+    "prompt_image": "leetcode_2850_640c346bcc31.png"
+  },
+  {
+    "task_id": "leetcode_2851",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2851_62f58bb06abc.png",
+    "prompt_image": "leetcode_2851_62f58bb06abc.png"
+  },
+  {
+    "task_id": "leetcode_2853",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2853_279a066b538f.png",
+    "prompt_image": "leetcode_2853_279a066b538f.png"
+  },
+  {
+    "task_id": "leetcode_2855",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2855_6881b956d5c7.png",
+    "prompt_image": "leetcode_2855_6881b956d5c7.png"
+  },
+  {
+    "task_id": "leetcode_2860",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2860_c1bae8509dec.png",
+    "prompt_image": "leetcode_2860_c1bae8509dec.png"
+  },
+  {
+    "task_id": "leetcode_2877",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2877_a87d459ad122.png",
+    "prompt_image": "leetcode_2877_a87d459ad122.png"
+  },
+  {
+    "task_id": "leetcode_2885",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2885_e2b13d557753.png",
+    "prompt_image": "leetcode_2885_e2b13d557753.png"
+  },
+  {
+    "task_id": "leetcode_2888",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2888_dbd033868f26.png",
+    "prompt_image": "leetcode_2888_dbd033868f26.png"
+  },
+  {
+    "task_id": "leetcode_2890",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2890_6f462e1685e0.png",
+    "prompt_image": "leetcode_2890_6f462e1685e0.png"
+  },
+  {
+    "task_id": "leetcode_2892",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2892_eb0c5b210722.png",
+    "prompt_image": "leetcode_2892_eb0c5b210722.png"
+  },
+  {
+    "task_id": "leetcode_2894",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2894_a547283ec097.png",
+    "prompt_image": "leetcode_2894_a547283ec097.png"
+  },
+  {
+    "task_id": "leetcode_2895",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2895_f7f1b5163bde.png",
+    "prompt_image": "leetcode_2895_f7f1b5163bde.png"
+  },
+  {
+    "task_id": "leetcode_2898",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2898_bb5aa3f01c11.png",
+    "prompt_image": "leetcode_2898_bb5aa3f01c11.png"
+  },
+  {
+    "task_id": "leetcode_2899",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2899_f3ca15bd600c.png",
+    "prompt_image": "leetcode_2899_f3ca15bd600c.png"
+  },
+  {
+    "task_id": "leetcode_2901",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2901_6bc89ea2d1e2.png",
+    "prompt_image": "leetcode_2901_6bc89ea2d1e2.png"
+  },
+  {
+    "task_id": "leetcode_2904",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2904_06b70bd7ea69.png",
+    "prompt_image": "leetcode_2904_06b70bd7ea69.png"
+  },
+  {
+    "task_id": "leetcode_2905",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2905_a5b90a186b44.png",
+    "prompt_image": "leetcode_2905_a5b90a186b44.png"
+  },
+  {
+    "task_id": "leetcode_2907",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2907_e898eb6152ae.png",
+    "prompt_image": "leetcode_2907_e898eb6152ae.png"
+  },
+  {
+    "task_id": "leetcode_2908",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2908_89669fc2576c.png",
+    "prompt_image": "leetcode_2908_89669fc2576c.png"
+  },
+  {
+    "task_id": "leetcode_2910",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2910_d233d6e42e0c.png",
+    "prompt_image": "leetcode_2910_d233d6e42e0c.png"
+  },
+  {
+    "task_id": "leetcode_2912",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2912_32875c9c2900.png",
+    "prompt_image": "leetcode_2912_32875c9c2900.png"
+  },
+  {
+    "task_id": "leetcode_2915",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2915_bdaec893bbfd.png",
+    "prompt_image": "leetcode_2915_bdaec893bbfd.png"
+  },
+  {
+    "task_id": "leetcode_2924",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2924_f5f3306a0dc1.png",
+    "prompt_image": "leetcode_2924_f5f3306a0dc1.png"
+  },
+  {
+    "task_id": "leetcode_2926",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2926_6611493bec9a.png",
+    "prompt_image": "leetcode_2926_6611493bec9a.png"
+  },
+  {
+    "task_id": "leetcode_2948",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2948_e9a7a3860fe7.png",
+    "prompt_image": "leetcode_2948_e9a7a3860fe7.png"
+  },
+  {
+    "task_id": "leetcode_2950",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2950_c3051e5a2af0.png",
+    "prompt_image": "leetcode_2950_c3051e5a2af0.png"
+  },
+  {
+    "task_id": "leetcode_2953",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2953_1ec1b776bdd9.png",
+    "prompt_image": "leetcode_2953_1ec1b776bdd9.png"
+  },
+  {
+    "task_id": "leetcode_2957",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_2957_7d8345fa2082.png",
+    "prompt_image": "leetcode_2957_7d8345fa2082.png"
+  },
+  {
+    "task_id": "leetcode_3004",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3004_08631234d70a.png",
+    "prompt_image": "leetcode_3004_08631234d70a.png"
+  },
+  {
+    "task_id": "leetcode_3010",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3010_1db4504b5637.png",
+    "prompt_image": "leetcode_3010_1db4504b5637.png"
+  },
+  {
+    "task_id": "leetcode_3016",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3016_9ddd0fe1c38a.png",
+    "prompt_image": "leetcode_3016_9ddd0fe1c38a.png"
+  },
+  {
+    "task_id": "leetcode_3040",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3040_6f22a22d33f4.png",
+    "prompt_image": "leetcode_3040_6f22a22d33f4.png"
+  },
+  {
+    "task_id": "leetcode_3041",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3041_ed71aea40efb.png",
+    "prompt_image": "leetcode_3041_ed71aea40efb.png"
+  },
+  {
+    "task_id": "leetcode_3042",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3042_d728cd90582c.png",
+    "prompt_image": "leetcode_3042_d728cd90582c.png"
+  },
+  {
+    "task_id": "leetcode_3043",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3043_f0bcbddea21c.png",
+    "prompt_image": "leetcode_3043_f0bcbddea21c.png"
+  },
+  {
+    "task_id": "leetcode_3044",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3044_bd72743bfc5e.png",
+    "prompt_image": "leetcode_3044_bd72743bfc5e.png"
+  },
+  {
+    "task_id": "leetcode_3045",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3045_dfac58ae2ac0.png",
+    "prompt_image": "leetcode_3045_dfac58ae2ac0.png"
+  },
+  {
+    "task_id": "leetcode_3046",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3046_ee8496a7fbd4.png",
+    "prompt_image": "leetcode_3046_ee8496a7fbd4.png"
+  },
+  {
+    "task_id": "leetcode_3048",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3048_07a048e2c1df.png",
+    "prompt_image": "leetcode_3048_07a048e2c1df.png"
+  },
+  {
+    "task_id": "leetcode_3050",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3050_63aeb8dcb772.png",
+    "prompt_image": "leetcode_3050_63aeb8dcb772.png"
+  },
+  {
+    "task_id": "leetcode_3052",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3052_405445a4bea5.png",
+    "prompt_image": "leetcode_3052_405445a4bea5.png"
+  },
+  {
+    "task_id": "leetcode_3055",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3055_792837d034b8.png",
+    "prompt_image": "leetcode_3055_792837d034b8.png"
+  },
+  {
+    "task_id": "leetcode_3062",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3062_3cc8af61a151.png",
+    "prompt_image": "leetcode_3062_3cc8af61a151.png"
+  },
+  {
+    "task_id": "leetcode_3063",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3063_b1a269ac67bd.png",
+    "prompt_image": "leetcode_3063_b1a269ac67bd.png"
+  },
+  {
+    "task_id": "leetcode_3067",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3067_c7b302a36777.png",
+    "prompt_image": "leetcode_3067_c7b302a36777.png"
+  },
+  {
+    "task_id": "leetcode_3131",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3131_c460e2dd7dde.png",
+    "prompt_image": "leetcode_3131_c460e2dd7dde.png"
+  },
+  {
+    "task_id": "leetcode_3132",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3132_543940d0d957.png",
+    "prompt_image": "leetcode_3132_543940d0d957.png"
+  },
+  {
+    "task_id": "leetcode_3135",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3135_5db7a6f4c993.png",
+    "prompt_image": "leetcode_3135_5db7a6f4c993.png"
+  },
+  {
+    "task_id": "leetcode_3138",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3138_1b449f9a7b14.png",
+    "prompt_image": "leetcode_3138_1b449f9a7b14.png"
+  },
+  {
+    "task_id": "leetcode_3139",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3139_4194a9f7bf98.png",
+    "prompt_image": "leetcode_3139_4194a9f7bf98.png"
+  },
+  {
+    "task_id": "leetcode_3141",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3141_4cda7ecd5b42.png",
+    "prompt_image": "leetcode_3141_4cda7ecd5b42.png"
+  },
+  {
+    "task_id": "leetcode_3142",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3142_18503247bcf9.png",
+    "prompt_image": "leetcode_3142_18503247bcf9.png"
+  },
+  {
+    "task_id": "leetcode_3143",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3143_3e9a82f3a70c.png",
+    "prompt_image": "leetcode_3143_3e9a82f3a70c.png"
+  },
+  {
+    "task_id": "leetcode_3145",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3145_143d82986f5e.png",
+    "prompt_image": "leetcode_3145_143d82986f5e.png"
+  },
+  {
+    "task_id": "leetcode_3146",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3146_7289d8e04e1f.png",
+    "prompt_image": "leetcode_3146_7289d8e04e1f.png"
+  },
+  {
+    "task_id": "leetcode_3147",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3147_c7efaaf99ab9.png",
+    "prompt_image": "leetcode_3147_c7efaaf99ab9.png"
+  },
+  {
+    "task_id": "leetcode_3148",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3148_13d1c9add7d3.png",
+    "prompt_image": "leetcode_3148_13d1c9add7d3.png"
+  },
+  {
+    "task_id": "leetcode_3149",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3149_48a0073b27e0.png",
+    "prompt_image": "leetcode_3149_48a0073b27e0.png"
+  },
+  {
+    "task_id": "leetcode_3150",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3150_809a1c0cf7a8.png",
+    "prompt_image": "leetcode_3150_809a1c0cf7a8.png"
+  },
+  {
+    "task_id": "leetcode_3153",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3153_488cba20a57f.png",
+    "prompt_image": "leetcode_3153_488cba20a57f.png"
+  },
+  {
+    "task_id": "leetcode_3436",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3436_4c859bb718ee.png",
+    "prompt_image": "leetcode_3436_4c859bb718ee.png"
+  },
+  {
+    "task_id": "leetcode_3438",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3438_3646c9b20d08.png",
+    "prompt_image": "leetcode_3438_3646c9b20d08.png"
+  },
+  {
+    "task_id": "leetcode_3440",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3440_9cb2e185194a.png",
+    "prompt_image": "leetcode_3440_9cb2e185194a.png"
+  },
+  {
+    "task_id": "leetcode_3442",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3442_5b3dc340cade.png",
+    "prompt_image": "leetcode_3442_5b3dc340cade.png"
+  },
+  {
+    "task_id": "leetcode_3443",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3443_da401afbc192.png",
+    "prompt_image": "leetcode_3443_da401afbc192.png"
+  },
+  {
+    "task_id": "leetcode_3444",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3444_1125295f7b13.png",
+    "prompt_image": "leetcode_3444_1125295f7b13.png"
+  },
+  {
+    "task_id": "leetcode_3445",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3445_917bd2f16e73.png",
+    "prompt_image": "leetcode_3445_917bd2f16e73.png"
+  },
+  {
+    "task_id": "leetcode_3446",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3446_ee19afcdbc81.png",
+    "prompt_image": "leetcode_3446_ee19afcdbc81.png"
+  },
+  {
+    "task_id": "leetcode_3448",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3448_3106f6ee2a07.png",
+    "prompt_image": "leetcode_3448_3106f6ee2a07.png"
+  },
+  {
+    "task_id": "leetcode_3449",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3449_d851ffc58f17.png",
+    "prompt_image": "leetcode_3449_d851ffc58f17.png"
+  },
+  {
+    "task_id": "leetcode_3451",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3451_8d47b393c380.png",
+    "prompt_image": "leetcode_3451_8d47b393c380.png"
+  },
+  {
+    "task_id": "leetcode_3452",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3452_2f1b8acbfc46.png",
+    "prompt_image": "leetcode_3452_2f1b8acbfc46.png"
+  },
+  {
+    "task_id": "leetcode_3455",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3455_7496bdec3d1f.png",
+    "prompt_image": "leetcode_3455_7496bdec3d1f.png"
+  },
+  {
+    "task_id": "leetcode_3456",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3456_4b7f9d62450d.png",
+    "prompt_image": "leetcode_3456_4b7f9d62450d.png"
+  },
+  {
+    "task_id": "leetcode_3459",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3459_97fc02bf41cd.png",
+    "prompt_image": "leetcode_3459_97fc02bf41cd.png"
+  },
+  {
+    "task_id": "leetcode_3463",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3463_d2208643ad02.png",
+    "prompt_image": "leetcode_3463_d2208643ad02.png"
+  },
+  {
+    "task_id": "leetcode_3464",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3464_1d6bc68f45c0.png",
+    "prompt_image": "leetcode_3464_1d6bc68f45c0.png"
+  },
+  {
+    "task_id": "leetcode_3499",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3499_f45be12c7166.png",
+    "prompt_image": "leetcode_3499_f45be12c7166.png"
+  },
+  {
+    "task_id": "leetcode_3500",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3500_21a749fad22b.png",
+    "prompt_image": "leetcode_3500_21a749fad22b.png"
+  },
+  {
+    "task_id": "leetcode_3502",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3502_19a37214e7d1.png",
+    "prompt_image": "leetcode_3502_19a37214e7d1.png"
+  },
+  {
+    "task_id": "leetcode_3503",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3503_14e636be2b5b.png",
+    "prompt_image": "leetcode_3503_14e636be2b5b.png"
+  },
+  {
+    "task_id": "leetcode_3505",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3505_4a7e3b56098d.png",
+    "prompt_image": "leetcode_3505_4a7e3b56098d.png"
+  },
+  {
+    "task_id": "leetcode_3509",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3509_28326734e00e.png",
+    "prompt_image": "leetcode_3509_28326734e00e.png"
+  },
+  {
+    "task_id": "leetcode_3510",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3510_8d7e5c0e7ab0.png",
+    "prompt_image": "leetcode_3510_8d7e5c0e7ab0.png"
+  },
+  {
+    "task_id": "leetcode_3512",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3512_d7df4c0f7676.png",
+    "prompt_image": "leetcode_3512_d7df4c0f7676.png"
+  },
+  {
+    "task_id": "leetcode_3514",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3514_96c099562894.png",
+    "prompt_image": "leetcode_3514_96c099562894.png"
+  },
+  {
+    "task_id": "leetcode_3515",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3515_9580a5c4e3b2.png",
+    "prompt_image": "leetcode_3515_9580a5c4e3b2.png"
+  },
+  {
+    "task_id": "leetcode_3517",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3517_483f630902f0.png",
+    "prompt_image": "leetcode_3517_483f630902f0.png"
+  },
+  {
+    "task_id": "leetcode_3519",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3519_8ed49592d31a.png",
+    "prompt_image": "leetcode_3519_8ed49592d31a.png"
+  },
+  {
+    "task_id": "leetcode_3520",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3520_8826ac4b3f18.png",
+    "prompt_image": "leetcode_3520_8826ac4b3f18.png"
+  },
+  {
+    "task_id": "leetcode_3521",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3521_9e66b8f83694.png",
+    "prompt_image": "leetcode_3521_9e66b8f83694.png"
+  },
+  {
+    "task_id": "leetcode_3522",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_3522_7094f2a5d5a2.png",
+    "prompt_image": "leetcode_3522_7094f2a5d5a2.png"
+  },
+  {
+    "task_id": "leetcode_4020",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4020_0ef7a6494b95.png",
+    "prompt_image": "leetcode_4020_0ef7a6494b95.png"
+  },
+  {
+    "task_id": "leetcode_4023",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4023_bdf058e5eaca.png",
+    "prompt_image": "leetcode_4023_bdf058e5eaca.png"
+  },
+  {
+    "task_id": "leetcode_4024",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4024_0c99e8bca820.png",
+    "prompt_image": "leetcode_4024_0c99e8bca820.png"
+  },
+  {
+    "task_id": "leetcode_4026",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4026_1f57a05ad041.png",
+    "prompt_image": "leetcode_4026_1f57a05ad041.png"
+  },
+  {
+    "task_id": "leetcode_4027",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4027_942f6ee8d03f.png",
+    "prompt_image": "leetcode_4027_942f6ee8d03f.png"
+  },
+  {
+    "task_id": "leetcode_4031",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4031_1415a6f77b86.png",
+    "prompt_image": "leetcode_4031_1415a6f77b86.png"
+  },
+  {
+    "task_id": "leetcode_4032",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4032_b2b132d16ebb.png",
+    "prompt_image": "leetcode_4032_b2b132d16ebb.png"
+  },
+  {
+    "task_id": "leetcode_4033",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4033_a9868910fdf9.png",
+    "prompt_image": "leetcode_4033_a9868910fdf9.png"
+  },
+  {
+    "task_id": "leetcode_4034",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4034_8409ad495fcb.png",
+    "prompt_image": "leetcode_4034_8409ad495fcb.png"
+  },
+  {
+    "task_id": "leetcode_4036",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4036_2e4e4b356b95.png",
+    "prompt_image": "leetcode_4036_2e4e4b356b95.png"
+  },
+  {
+    "task_id": "leetcode_4038",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4038_9566b545b96e.png",
+    "prompt_image": "leetcode_4038_9566b545b96e.png"
+  },
+  {
+    "task_id": "leetcode_4040",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4040_9a06d236831d.png",
+    "prompt_image": "leetcode_4040_9a06d236831d.png"
+  },
+  {
+    "task_id": "leetcode_4044",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4044_5b90a39773ea.png",
+    "prompt_image": "leetcode_4044_5b90a39773ea.png"
+  },
+  {
+    "task_id": "leetcode_4048",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4048_6124424bdc97.png",
+    "prompt_image": "leetcode_4048_6124424bdc97.png"
+  },
+  {
+    "task_id": "leetcode_4071",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4071_a283a43b5e30.png",
+    "prompt_image": "leetcode_4071_a283a43b5e30.png"
+  },
+  {
+    "task_id": "leetcode_4072",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4072_359b5c162d06.png",
+    "prompt_image": "leetcode_4072_359b5c162d06.png"
+  },
+  {
+    "task_id": "leetcode_4073",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4073_76f2c1092391.png",
+    "prompt_image": "leetcode_4073_76f2c1092391.png"
+  },
+  {
+    "task_id": "leetcode_4074",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4074_fb14277d8fd0.png",
+    "prompt_image": "leetcode_4074_fb14277d8fd0.png"
+  },
+  {
+    "task_id": "leetcode_4075",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4075_f1bf744c107b.png",
+    "prompt_image": "leetcode_4075_f1bf744c107b.png"
+  },
+  {
+    "task_id": "leetcode_4077",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4077_d674188dfb6b.png",
+    "prompt_image": "leetcode_4077_d674188dfb6b.png"
+  },
+  {
+    "task_id": "leetcode_4078",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4078_9948496f6e39.png",
+    "prompt_image": "leetcode_4078_9948496f6e39.png"
+  },
+  {
+    "task_id": "leetcode_4079",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4079_28bf1a54d2e7.png",
+    "prompt_image": "leetcode_4079_28bf1a54d2e7.png"
+  },
+  {
+    "task_id": "leetcode_4080",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4080_2626d6adc727.png",
+    "prompt_image": "leetcode_4080_2626d6adc727.png"
+  },
+  {
+    "task_id": "leetcode_4081",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4081_b55bfada7db8.png",
+    "prompt_image": "leetcode_4081_b55bfada7db8.png"
+  },
+  {
+    "task_id": "leetcode_4085",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4085_854e6d252c3d.png",
+    "prompt_image": "leetcode_4085_854e6d252c3d.png"
+  },
+  {
+    "task_id": "leetcode_4086",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4086_1268b5a69696.png",
+    "prompt_image": "leetcode_4086_1268b5a69696.png"
+  },
+  {
+    "task_id": "leetcode_4088",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4088_f74b876ce810.png",
+    "prompt_image": "leetcode_4088_f74b876ce810.png"
+  },
+  {
+    "task_id": "leetcode_4089",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4089_7c5726a73c49.png",
+    "prompt_image": "leetcode_4089_7c5726a73c49.png"
+  },
+  {
+    "task_id": "leetcode_4090",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4090_9ffdf24a88fb.png",
+    "prompt_image": "leetcode_4090_9ffdf24a88fb.png"
+  },
+  {
+    "task_id": "leetcode_4091",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4091_a9cc9d877328.png",
+    "prompt_image": "leetcode_4091_a9cc9d877328.png"
+  },
+  {
+    "task_id": "leetcode_4116",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4116_b6b04ff409b5.png",
+    "prompt_image": "leetcode_4116_b6b04ff409b5.png"
+  },
+  {
+    "task_id": "leetcode_4117",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4117_2a4c87517db5.png",
+    "prompt_image": "leetcode_4117_2a4c87517db5.png"
+  },
+  {
+    "task_id": "leetcode_4118",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4118_c040d0312c1e.png",
+    "prompt_image": "leetcode_4118_c040d0312c1e.png"
+  },
+  {
+    "task_id": "leetcode_4119",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4119_6cd96d6b6427.png",
+    "prompt_image": "leetcode_4119_6cd96d6b6427.png"
+  },
+  {
+    "task_id": "leetcode_4120",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4120_027d23676541.png",
+    "prompt_image": "leetcode_4120_027d23676541.png"
+  },
+  {
+    "task_id": "leetcode_4121",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4121_856e336027c0.png",
+    "prompt_image": "leetcode_4121_856e336027c0.png"
+  },
+  {
+    "task_id": "leetcode_4122",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4122_48b936c83b3a.png",
+    "prompt_image": "leetcode_4122_48b936c83b3a.png"
+  },
+  {
+    "task_id": "leetcode_4123",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4123_af646b26d38c.png",
+    "prompt_image": "leetcode_4123_af646b26d38c.png"
+  },
+  {
+    "task_id": "leetcode_4124",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4124_dce2fdccc703.png",
+    "prompt_image": "leetcode_4124_dce2fdccc703.png"
+  },
+  {
+    "task_id": "leetcode_4125",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4125_dc216a298970.png",
+    "prompt_image": "leetcode_4125_dc216a298970.png"
+  },
+  {
+    "task_id": "leetcode_4126",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4126_984fb5217eb3.png",
+    "prompt_image": "leetcode_4126_984fb5217eb3.png"
+  },
+  {
+    "task_id": "leetcode_4127",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4127_74564d52358f.png",
+    "prompt_image": "leetcode_4127_74564d52358f.png"
+  },
+  {
+    "task_id": "leetcode_4129",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4129_57e0024dabbe.png",
+    "prompt_image": "leetcode_4129_57e0024dabbe.png"
+  },
+  {
+    "task_id": "leetcode_4130",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4130_7bf92c071ef5.png",
+    "prompt_image": "leetcode_4130_7bf92c071ef5.png"
+  },
+  {
+    "task_id": "leetcode_4132",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4132_43fb16d4826c.png",
+    "prompt_image": "leetcode_4132_43fb16d4826c.png"
+  },
+  {
+    "task_id": "leetcode_4135",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4135_800dbb8bfd35.png",
+    "prompt_image": "leetcode_4135_800dbb8bfd35.png"
+  },
+  {
+    "task_id": "leetcode_4136",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4136_f7cd10668402.png",
+    "prompt_image": "leetcode_4136_f7cd10668402.png"
+  },
+  {
+    "task_id": "leetcode_4161",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4161_43a8ebb1f683.png",
+    "prompt_image": "leetcode_4161_43a8ebb1f683.png"
+  },
+  {
+    "task_id": "leetcode_4162",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4162_4dbbc7eaaca6.png",
+    "prompt_image": "leetcode_4162_4dbbc7eaaca6.png"
+  },
+  {
+    "task_id": "leetcode_4163",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4163_285e9f893916.png",
+    "prompt_image": "leetcode_4163_285e9f893916.png"
+  },
+  {
+    "task_id": "leetcode_4164",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4164_628adad8b8af.png",
+    "prompt_image": "leetcode_4164_628adad8b8af.png"
+  },
+  {
+    "task_id": "leetcode_4165",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4165_6b8f6298a687.png",
+    "prompt_image": "leetcode_4165_6b8f6298a687.png"
+  },
+  {
+    "task_id": "leetcode_4166",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4166_ed05f55420a5.png",
+    "prompt_image": "leetcode_4166_ed05f55420a5.png"
+  },
+  {
+    "task_id": "leetcode_4168",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4168_0fec734bfd67.png",
+    "prompt_image": "leetcode_4168_0fec734bfd67.png"
+  },
+  {
+    "task_id": "leetcode_4170",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4170_e9ead18e057f.png",
+    "prompt_image": "leetcode_4170_e9ead18e057f.png"
+  },
+  {
+    "task_id": "leetcode_4173",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4173_e1f8bb5d1096.png",
+    "prompt_image": "leetcode_4173_e1f8bb5d1096.png"
+  },
+  {
+    "task_id": "leetcode_4178",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4178_4c9df4402bb4.png",
+    "prompt_image": "leetcode_4178_4c9df4402bb4.png"
+  },
+  {
+    "task_id": "leetcode_4179",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4179_ab4d2a55c93a.png",
+    "prompt_image": "leetcode_4179_ab4d2a55c93a.png"
+  },
+  {
+    "task_id": "leetcode_4180",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4180_5e963172d525.png",
+    "prompt_image": "leetcode_4180_5e963172d525.png"
+  },
+  {
+    "task_id": "leetcode_4182",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4182_ac9d7115ff75.png",
+    "prompt_image": "leetcode_4182_ac9d7115ff75.png"
+  },
+  {
+    "task_id": "leetcode_4183",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4183_2be9517f72d7.png",
+    "prompt_image": "leetcode_4183_2be9517f72d7.png"
+  },
+  {
+    "task_id": "leetcode_4184",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4184_2fa0e4704c75.png",
+    "prompt_image": "leetcode_4184_2fa0e4704c75.png"
+  },
+  {
+    "task_id": "leetcode_4185",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4185_4df83c0d8bbc.png",
+    "prompt_image": "leetcode_4185_4df83c0d8bbc.png"
+  },
+  {
+    "task_id": "leetcode_4186",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4186_5f6bb00e9bde.png",
+    "prompt_image": "leetcode_4186_5f6bb00e9bde.png"
+  },
+  {
+    "task_id": "leetcode_4188",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4188_44eb0842b8b8.png",
+    "prompt_image": "leetcode_4188_44eb0842b8b8.png"
+  },
+  {
+    "task_id": "leetcode_4191",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4191_a1ba1944f57e.png",
+    "prompt_image": "leetcode_4191_a1ba1944f57e.png"
+  },
+  {
+    "task_id": "leetcode_4193",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4193_e78e145d905d.png",
+    "prompt_image": "leetcode_4193_e78e145d905d.png"
+  },
+  {
+    "task_id": "leetcode_4195",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4195_efee497829b3.png",
+    "prompt_image": "leetcode_4195_efee497829b3.png"
+  },
+  {
+    "task_id": "leetcode_4196",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4196_05d207766d5d.png",
+    "prompt_image": "leetcode_4196_05d207766d5d.png"
+  },
+  {
+    "task_id": "leetcode_4198",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4198_07a6ab7ee09e.png",
+    "prompt_image": "leetcode_4198_07a6ab7ee09e.png"
+  },
+  {
+    "task_id": "leetcode_4199",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4199_eaae602d2e8a.png",
+    "prompt_image": "leetcode_4199_eaae602d2e8a.png"
+  },
+  {
+    "task_id": "leetcode_4201",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4201_6f08ebf6bdc4.png",
+    "prompt_image": "leetcode_4201_6f08ebf6bdc4.png"
+  },
+  {
+    "task_id": "leetcode_4202",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4202_4cf7fbd33af2.png",
+    "prompt_image": "leetcode_4202_4cf7fbd33af2.png"
+  },
+  {
+    "task_id": "leetcode_4203",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4203_eea0da276dae.png",
+    "prompt_image": "leetcode_4203_eea0da276dae.png"
+  },
+  {
+    "task_id": "leetcode_4204",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4204_dcfd59ed57b7.png",
+    "prompt_image": "leetcode_4204_dcfd59ed57b7.png"
+  },
+  {
+    "task_id": "leetcode_4208",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4208_4482f6e85122.png",
+    "prompt_image": "leetcode_4208_4482f6e85122.png"
+  },
+  {
+    "task_id": "leetcode_4209",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4209_3ba00ba482a7.png",
+    "prompt_image": "leetcode_4209_3ba00ba482a7.png"
+  },
+  {
+    "task_id": "leetcode_4210",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4210_ad404058b05a.png",
+    "prompt_image": "leetcode_4210_ad404058b05a.png"
+  },
+  {
+    "task_id": "leetcode_4211",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4211_6148c842d452.png",
+    "prompt_image": "leetcode_4211_6148c842d452.png"
+  },
+  {
+    "task_id": "leetcode_4243",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4243_79f6bb981548.png",
+    "prompt_image": "leetcode_4243_79f6bb981548.png"
+  },
+  {
+    "task_id": "leetcode_4244",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4244_9f5139ff2982.png",
+    "prompt_image": "leetcode_4244_9f5139ff2982.png"
+  },
+  {
+    "task_id": "leetcode_4248",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4248_d56326dfc69d.png",
+    "prompt_image": "leetcode_4248_d56326dfc69d.png"
+  },
+  {
+    "task_id": "leetcode_4250",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4250_4199b82c40f1.png",
+    "prompt_image": "leetcode_4250_4199b82c40f1.png"
+  },
+  {
+    "task_id": "leetcode_4251",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4251_414163bf1616.png",
+    "prompt_image": "leetcode_4251_414163bf1616.png"
+  },
+  {
+    "task_id": "leetcode_4253",
+    "image": "/content/DebugEval_datasets/bug_loc/vlm/images/leetcode_4253_7d6c41533645.png",
+    "prompt_image": "leetcode_4253_7d6c41533645.png"
+  }
+]

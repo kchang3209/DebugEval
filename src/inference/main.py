@@ -13,8 +13,11 @@ import fine_tune_post_process
 import codeQwen_post_process
 # from eval.error_type_identification import calc_accuracy
 
-from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
+# from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
+
 from vllm import LLM, SamplingParams
+from qwen_vl_utils import process_vision_info
+from transformers import AutoProcessor
 
 def read_jsonl_file(file_path):
     results = []
@@ -79,6 +82,33 @@ def calc_review_ACC(refs_file, pres_file):
     acc = round(count / length * 100, 2)
     return acc
 
+# CSE247
+def prepare_inputs_for_vllm(messages, processor):
+    text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+    # qwen_vl_utils 0.0.14+ reqired
+    image_inputs, video_inputs, video_kwargs = process_vision_info(
+        messages,
+        image_patch_size=processor.image_processor.patch_size,
+        return_video_kwargs=True,
+        return_video_metadata=True
+    )
+    print(f"video_kwargs: {video_kwargs}")
+
+    mm_data = {}
+    if image_inputs is not None:
+        mm_data['image'] = image_inputs
+    if video_inputs is not None:
+        mm_data['video'] = video_inputs
+
+    return {
+        'prompt': text,
+        'multi_modal_data': mm_data,
+        'mm_processor_kwargs': video_kwargs
+    }
+
+
+
+
 def main():
     parser = argparse.ArgumentParser()
     # gpt-3.5-turbo-0125  gpt-4o-mini  gpt-3.5-turbo(gpt-3.5-turbo-0125)  deepseek-coder  deepseek-chat  qwen2-72b-instruct
@@ -97,9 +127,16 @@ def main():
     parser.add_argument("--num_quiz", type=int, default=100, help="number of quizes in each catagory to solve")
     parser.add_argument("--GPU_util", type=float, default=0.9, help="GPU utilization ratio")
     parser.add_argument("--model_path", type=str, default='', help="local model weights")
+    parser.add_argument("--max_model_len", type=int, default=4096, help="max number of tokens of prompt + generated response")
+    parser.add_argument("--num_visual_tokens", type=int, default=1024, help="visual token budget (is fixed in CSE247)")
+    parser.add_argument("--DATASET_PATH", type=str, default='', help="path to dataset metadata")
+    parser.add_argument("--IMAGE_PATH", type=str, default='', help="path to code image")
     args = parser.parse_args()
 
-    # read data
+
+    # ========================
+    # Read Data Per Task Type
+    # ========================
     print("Reading data from {}".format(args.data_path))
     data = read_jsonl_file(args.data_path)
     print("Data read successfully, total {} samples".format(len(data)))
@@ -128,8 +165,11 @@ def main():
     if args.task == "code_review_reverse":
         data = [d for d in data if d['task4'] == 'True']
         print("Selected task: {}, total {} samples".format(args.task, len(data)))
-
-    # read prompt
+        
+        
+    # ========================
+    # Read Prompt Template
+    # ========================
     if args.task == 'code_repair':
         if 'FT' in args.model and 'llama' in args.model and 'no_cot' in args.model:
             prompt_path = os.path.join(args.prompt_dir, args.task,'NO_COT','llama_fine_tune',
@@ -204,7 +244,10 @@ def main():
             assert prompt_template is not None, "Prompt template is None"
             print("Prompt read successfully (CSE247)")
             
-    # check output dir
+    
+    # =============================
+    # Check Existing Output/Result
+    # =============================
     output_dir = os.path.join(args.output_dir, args.task, args.prompt_type)
     # if the output dir does not exist, create it
     if not os.path.exists(output_dir):
@@ -220,21 +263,27 @@ def main():
         remaining_data = [d for d in data if d['question_id'] not in done_ids]
     print("Remaining {} samples to generate".format(len(remaining_data)))
 
+
+    # ========================
+    # Model Init
+    # ========================
     runner = None
-    
     if "Qwen" in args.model:  ## Model Loader CSE247
+        if args.model_path is None:
+            model_location = args.model
+        else:
+            model_location = args.model_path
+        os.environ['VLLM_WORKER_MULTIPROC_METHOD'] = 'spawn'
+           
+        sampling_params = SamplingParams(temperature=args.temperature,
+                                    top_p=args.top_p,
+                                    max_tokens=args.max_tokens)
+        
         if args.mode == 'text_only':
-            os.environ['VLLM_WORKER_MULTIPROC_METHOD'] = 'spawn'
-            if args.model_path is None:
-                model_location = args.model
-            else:
-                model_location = args.model_path
             model = LLM(model=model_location,
                       tokenizer=args.model,
+                      max_model_len=args.max_model_len,
                       gpu_memory_utilization=args.GPU_util)
-            sampling_params = SamplingParams(temperature=args.temperature,
-                                             top_p=args.top_p,
-                                             max_tokens=args.max_tokens)
             # =======================
             # CSE247 HF Model Loader
             # =======================
@@ -244,6 +293,21 @@ def main():
             #     torch_dtype="auto",
             #     device_map="auto"
             # )
+        elif args.mode == 'vlm':
+            model = LLM(
+                model=model_location,
+                # tensor_parallel_size=1,
+                # dtype="float16",
+                # trust_remote_code=True,
+                max_model_len=args.max_model_len,
+                gpu_memory_utilization=args.GPU_util,
+                mm_processor_kwargs={
+                    "min_pixels": args.num_visual_tokens*32*32,
+                    "max_pixels": args.num_visual_tokens*32*32,
+                },
+            )
+            
+            
         runner = Qwen_runner
         print('Qwen Model Ready.')
     elif "gpt" in args.model:
@@ -254,9 +318,13 @@ def main():
         runner = vllm_runner
         # llm, sampling_params = get_llm_sampling_params(args)
 
-    # remaining_data = remaining_data[:10]
+
+    # ========================
     # Inference
+    # ========================
     if args.task == "error_code_localization":
+        with open(args.DATASET_PATH) as f:
+            dataset = json.load(f)
         with open(output_path, "a") as f:
             counter = 0
             for line in tqdm(remaining_data, desc="Generating samples", total=len(remaining_data)):
@@ -265,16 +333,43 @@ def main():
                     buggy_code = line['buggy_code']
                     options = line['task1_options']
                     prompt = prompt_template.replace("%%%Task%%%",question_content).replace("%%%Incorrect_Solution%%%",buggy_code).replace("%%%Options%%%",options)
+                    
+                    task_id = line['task_id']
+                    for item in dataset:
+                        if item['task_id'] != task_id:
+                            continue
+                        elif item['task_id'] == task_id:
+                            image_path = os.path.join(args.IMAGE_PATH, item['prompt_image'])
+                            break
                     # print("=====================================")
                     # print("Prompt: ", prompt)
                     # print("=====================================")
                     # messages = [{"role": "user", "content": prompt}]
                     # responses, num_text_tokens = runner(args, messages,model,tokenizer) # CSE247
-                    responses, num_text_tokens = runner(args, prompt, model, sampling_params) # CSE247
+                    if args.mode == 'text_only':
+                        responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
+                    elif args.mode == 'vlm':
+                        
+                        messages = [
+                            {
+                                "role": "user",
+                                "content": [
+                                {
+                                    "type": "image",
+                                    "image": image_path,
+                                },
+                                {"type": "text", "text": "Follow the instructions in the image"},
+                                ],
+                            }
+                        ]
+                        processor = AutoProcessor.from_pretrained(model_location)                        
+                        inputs = [prepare_inputs_for_vllm(message, processor) for message in [messages]]
+                        responses, num_req_tok = runner(args, inputs, model, sampling_params)
                     print("=====================================")
                     print("Responses: ", responses)
                     # print("=====================================")
                     line['responses'] = responses
+                    line['req_token'] = num_req_tok # CSE247
                     line['private_test_cases'] = ''
                     f.write(
                         json.dumps(line) + "\n"
@@ -282,6 +377,7 @@ def main():
                     f.flush()  # make sure the output is written to file
                 except Exception as e:
                     line['responses'] = [repr(e)]
+                    line['req_token'] = num_req_tok # CSE247
                     line['private_test_cases'] = ''
                     f.write(
                         json.dumps(line) + "\n"
@@ -289,7 +385,7 @@ def main():
                     f.flush()  # make sure the output is written to file
                     print(repr(e))
                 counter += 1
-                if counter >= args.num_quiz:
+                if counter >= args.num_quiz and args.num_quiz is not None:
                     break
     elif args.task == "error_type_identification":
         with open(output_path, "a") as f:
@@ -381,9 +477,11 @@ def main():
                     )
                     f.flush()  # make sure the output is written to file
                     print(repr(e))
-    # Evaluation
 
 
+    # ========================
+    # Post Processing
+    # ========================
     if args.task == "error_code_localization":
         if 'codellama' in args.model:
             if args.prompt_type == "zero_shot":
@@ -397,13 +495,15 @@ def main():
         else:
             if args.prompt_type == "zero_shot":
                 post_process_func = response_post_process.post_process_error_code_localization_zero_shot
-        references = []
-        predictions = []
+                
+        ## extract answer fron jsonl result file
+        references = [] # correct answer
+        predictions = []  # model's answer
         results_file = open(output_path, 'r', encoding='utf8')
         for elem in results_file:
             line = json.loads(elem)
             references.append(line['task1_answer'])
-            predictions.append(post_process_func(line['responses']))
+            predictions.append(post_process_func(line['responses']))    # CSE247
         refs_file = os.path.join(output_dir, "refs_{}.txt".format(args.prompt_type))
         pres_file = os.path.join(output_dir, "pres_{}.txt".format(args.prompt_type))
         write_to_txt_file(refs_file, references)
@@ -431,7 +531,7 @@ def main():
             line = json.loads(elem)
             choice = line['task2_choice']
             references.append(choice)
-            predictions.append(post_process_func(line['responses']))
+            predictions.append(post_process_func(line['responses']))    # CSE247
         refs_file = os.path.join(output_dir, "refs_{}.txt".format(args.prompt_type))
         pres_file = os.path.join(output_dir, "pres_{}.txt".format(args.prompt_type))
         write_to_txt_file(refs_file, references)
@@ -467,7 +567,7 @@ def main():
             language = line['language']
             groupy = {
                 'question_id': line['question_id'],
-                'responses': post_process_func(line['responses'])
+                'responses': post_process_func(line['responses'])    # CSE247
             }
             if language == 'python':
                 python_file.write(json.dumps(groupy)+'\n')
@@ -495,7 +595,7 @@ def main():
             line = json.loads(elem)
             choice = 'A'
             references.append(choice)
-            predictions.append(post_process_func(line['responses']))
+            predictions.append(post_process_func(line['responses']))    # CSE247
         refs_file = os.path.join(output_dir, "refs_{}.txt".format(args.prompt_type))
         pres_file = os.path.join(output_dir, "pres_{}.txt".format(args.prompt_type))
         write_to_txt_file(refs_file, references)
@@ -522,7 +622,7 @@ def main():
             line = json.loads(elem)
             choice = 'B'
             references.append(choice)
-            predictions.append(post_process_func(line['responses']))
+            predictions.append(post_process_func(line['responses']))    # CSE247
         refs_file = os.path.join(output_dir, "refs_{}.txt".format(args.prompt_type))
         pres_file = os.path.join(output_dir, "pres_{}.txt".format(args.prompt_type))
         write_to_txt_file(refs_file, references)
