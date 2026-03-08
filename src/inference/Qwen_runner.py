@@ -27,7 +27,8 @@ def Qwen_runner(args,prompt,model,sampling_params):
         outputs = model.generate(prompt, sampling_params)
         # num_text_tokens = len(outputs[0].outputs[0].token_ids)
         response = outputs[0].outputs[0].text
-        return response
+        req_token = len(outputs[0].prompt_token_ids)
+        return response, req_token
 
 
     # =======================

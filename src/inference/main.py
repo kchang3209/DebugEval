@@ -13,6 +13,9 @@ import fine_tune_post_process
 import codeQwen_post_process
 # from eval.error_type_identification import calc_accuracy
 
+## prompt sequence
+## image size
+
 # from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
@@ -284,7 +287,7 @@ def main():
                       tokenizer=args.model,
                       max_model_len=args.max_model_len,
                       gpu_memory_utilization=args.GPU_util)
-            tokenizer = AutoTokenizer.from_pretrained(model_path)
+            # tokenizer = AutoTokenizer.from_pretrained(model_location)
             # =======================
             # CSE247 HF Model Loader
             # =======================
@@ -348,8 +351,9 @@ def main():
                     # messages = [{"role": "user", "content": prompt}]
                     # responses, num_text_tokens = runner(args, messages,model,tokenizer) # CSE247
                     if args.mode == 'text_only':
-                        num_req_tok = len(tokenizer(prompt)["input_ids"])
-                        responses = runner(args, prompt, model, sampling_params) # CSE247
+                        # num_req_tok = len(tokenizer(prompt)["input_ids"].shape[-1])
+                        responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
+                        
                     elif args.mode == 'vlm':
                         
                         messages = [
@@ -360,8 +364,8 @@ def main():
                                     "type": "image",
                                     "image": image_path,
                                 },
-                                {"type": "text", "text": "Follow the instructions in the image. In your response, the final answer should be in the following format: <Answer>(Option)</Answer>. For example, your output format should like <Answer>(A)</Answer>"},
-                                # {"type": "text", "text": "Follow the instructions in the image"},
+                                {"type": "text", "text": "Follow the instructions in the image. Your final answer should be in the following format: <Answer>(Option)</Answer>. For example, your output format should like <Answer>(A)</Answer>"},
+
                                 ],
                             }
                         ]
