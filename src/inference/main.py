@@ -131,7 +131,7 @@ def main():
     # parser.add_argument("--num_visual_tokens", type=int, default=1024, help="visual token budget (is fixed in CSE247)")
     parser.add_argument("--DATASET_PATH", type=str, default='', help="path to dataset metadata")
     parser.add_argument("--IMAGE_PATH", type=str, default='', help="path to code image")
-    parser.add_argument("--rep_penalty", type=float, default=1.5, help="penalty for repetitive answer")
+    parser.add_argument("--presence_penalty", type=float, default=1.5, help="encourage model to introduce new concepts")
     args = parser.parse_args()
 
 
@@ -279,7 +279,7 @@ def main():
         sampling_params = SamplingParams(temperature=args.temperature,
                                     top_p=args.top_p,
                                     max_tokens=args.max_tokens,
-                                    repetition_penalty=args.rep_penalty)
+                                    presence_penalty=args.presence_penalty)
     
         if args.mode == 'text_only':
             model = LLM(model=model_location,
@@ -298,6 +298,16 @@ def main():
             )
             processor = AutoProcessor.from_pretrained(model_location) 
             
+            
+            id_image_mapping = {}
+            with open(args.DATASET_PATH) as f:
+                dataset = json.load(f)
+                for item in dataset:
+                    id_image_mapping[item['task_id']] = item['prompt_image']    # key/value = task_id/image name, e.g. "leetcode_6": "leetcode_6_b9381e0e06a0.png"
+
+
+
+            
         runner = Qwen_runner
         print('Qwen Model Ready.')
     elif "gpt" in args.model:
@@ -313,9 +323,6 @@ def main():
     # Inference
     # ========================
     if args.task == "error_code_localization":
-        if args.mode == 'vlm':
-            with open(args.DATASET_PATH) as f:
-                dataset = json.load(f)
         with open(output_path, "a") as f:
             counter = 0
             for line in tqdm(remaining_data, desc="Generating samples", total=len(remaining_data)):
@@ -332,12 +339,14 @@ def main():
                         responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
                         
                     elif args.mode == 'vlm':
-                        for item in dataset:
-                            if item['task_id'] != task_id:
-                                continue
-                            elif item['task_id'] == task_id:
-                                image_path = os.path.join(args.IMAGE_PATH, item['prompt_image'])
-                                break
+                        # for item in dataset:
+                        #     if item['task_id'] != task_id:
+                        #         continue
+                        #     elif item['task_id'] == task_id:
+                        #         image_path = os.path.join(args.IMAGE_PATH, item['prompt_image'])
+                        #         break
+                            
+                        image_path = os.path.join(args.IMAGE_PATH, id_image_mapping[task_id])
                         messages = [
                             {
                                 "role": "user",
