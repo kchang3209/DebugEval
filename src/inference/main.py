@@ -13,9 +13,6 @@ import fine_tune_post_process
 import codeQwen_post_process
 # from eval.error_type_identification import calc_accuracy
 
-## prompt sequence
-## image size
-
 # from transformers import AutoModelForCausalLM, AutoTokenizer, set_seed
 from transformers import AutoTokenizer
 from vllm import LLM, SamplingParams
@@ -115,9 +112,9 @@ def prepare_inputs_for_vllm(messages, processor):
 def main():
     parser = argparse.ArgumentParser()
     # gpt-3.5-turbo-0125  gpt-4o-mini  gpt-3.5-turbo(gpt-3.5-turbo-0125)  deepseek-coder  deepseek-chat  qwen2-72b-instruct
-    parser.add_argument("--model", type=str, default='', help="name to model")
-    parser.add_argument("--data_path", type=str, default='', help="Path to data")
-    parser.add_argument("--prompt_dir", type=str, default='', help="Path to prompt dir")
+    parser.add_argument("--model", type=str, default='', help="model name")
+    parser.add_argument("--data_path", type=str, default='', help="path to prompt for each question")
+    parser.add_argument("--prompt_dir", type=str, default='', help="path to prompt template")
     parser.add_argument("--output_dir", type=str, default='', help="Path to output dir")
     parser.add_argument("--task", type=str, default="", help="Task name",choices=["error_code_localization","error_type_identification","code_repair","code_review","code_review_reverse","issue_generation"])
     parser.add_argument("--prompt_type", type=str, default="", help="Prompt type",choices=["zero_shot"])
@@ -131,9 +128,10 @@ def main():
     parser.add_argument("--GPU_util", type=float, default=0.9, help="GPU utilization ratio")
     parser.add_argument("--model_path", type=str, default='', help="local model weights")
     parser.add_argument("--max_model_len", type=int, default=4096, help="max number of tokens of prompt + generated response")
-    parser.add_argument("--num_visual_tokens", type=int, default=1024, help="visual token budget (is fixed in CSE247)")
+    # parser.add_argument("--num_visual_tokens", type=int, default=1024, help="visual token budget (is fixed in CSE247)")
     parser.add_argument("--DATASET_PATH", type=str, default='', help="path to dataset metadata")
     parser.add_argument("--IMAGE_PATH", type=str, default='', help="path to code image")
+    parser.add_argument("--rep_penalty", type=float, default=1.5, help="penalty for repetitive answer")
     args = parser.parse_args()
 
 
@@ -280,37 +278,25 @@ def main():
            
         sampling_params = SamplingParams(temperature=args.temperature,
                                     top_p=args.top_p,
-                                    max_tokens=args.max_tokens)
-        
+                                    max_tokens=args.max_tokens,
+                                    repetition_penalty=args.rep_penalty)
+    
         if args.mode == 'text_only':
             model = LLM(model=model_location,
                       tokenizer=args.model,
                       max_model_len=args.max_model_len,
                       gpu_memory_utilization=args.GPU_util)
-            # tokenizer = AutoTokenizer.from_pretrained(model_location)
-            # =======================
-            # CSE247 HF Model Loader
-            # =======================
-            # tokenizer = AutoTokenizer.from_pretrained(args.model)
-            # model = AutoModelForCausalLM.from_pretrained(
-            #     args.model,
-            #     torch_dtype="auto",
-            #     device_map="auto"
-            # )
         elif args.mode == 'vlm':
             model = LLM(
                 model=model_location,
-                # tensor_parallel_size=1,
-                # dtype="float16",
-                # trust_remote_code=True,
                 max_model_len=args.max_model_len,
                 gpu_memory_utilization=args.GPU_util,
-                mm_processor_kwargs={
-                    "min_pixels": args.num_visual_tokens*32*32,
-                    "max_pixels": args.num_visual_tokens*32*32,
-                },
+                # mm_processor_kwargs={
+                #     "min_pixels": args.num_visual_tokens*32*32,
+                #     "max_pixels": args.num_visual_tokens*32*32,
+                # },
             )
-            
+            processor = AutoProcessor.from_pretrained(model_location) 
             
         runner = Qwen_runner
         print('Qwen Model Ready.')
@@ -327,54 +313,51 @@ def main():
     # Inference
     # ========================
     if args.task == "error_code_localization":
-        with open(args.DATASET_PATH) as f:
-            dataset = json.load(f)
+        if args.mode == 'vlm':
+            with open(args.DATASET_PATH) as f:
+                dataset = json.load(f)
         with open(output_path, "a") as f:
             counter = 0
             for line in tqdm(remaining_data, desc="Generating samples", total=len(remaining_data)):
+                image_path = None
                 try:
                     question_content = line['question_content']
                     buggy_code = line['buggy_code']
                     options = line['task1_options']
-                    prompt = prompt_template.replace("%%%Task%%%",question_content).replace("%%%Incorrect_Solution%%%",buggy_code).replace("%%%Options%%%",options)
-                    
                     task_id = line['question_id']
-                    for item in dataset:
-                        if item['task_id'] != task_id:
-                            continue
-                        elif item['task_id'] == task_id:
-                            image_path = os.path.join(args.IMAGE_PATH, item['prompt_image'])
-                            break
-                    # print("=====================================")
-                    # print("Prompt: ", prompt)
-                    # print("=====================================")
                     # messages = [{"role": "user", "content": prompt}]
                     # responses, num_text_tokens = runner(args, messages,model,tokenizer) # CSE247
                     if args.mode == 'text_only':
-                        # num_req_tok = len(tokenizer(prompt)["input_ids"].shape[-1])
+                        prompt = prompt_template.replace("%%%Task%%%",question_content).replace("%%%Incorrect_Solution%%%",buggy_code).replace("%%%Options%%%",options)
                         responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
                         
                     elif args.mode == 'vlm':
-                        
+                        for item in dataset:
+                            if item['task_id'] != task_id:
+                                continue
+                            elif item['task_id'] == task_id:
+                                image_path = os.path.join(args.IMAGE_PATH, item['prompt_image'])
+                                break
                         messages = [
                             {
                                 "role": "user",
                                 "content": [
+                                {"type": "text", "text": "Follow the instructions in the image. Your final answer should be in the following format: <Answer>(Option)</Answer>."},                                    
                                 {
                                     "type": "image",
                                     "image": image_path,
                                 },
-                                {"type": "text", "text": "Follow the instructions in the image. Your final answer should be in the following format: <Answer>(Option)</Answer>. For example, your output format should like <Answer>(A)</Answer>"},
 
                                 ],
                             }
                         ]
-                        processor = AutoProcessor.from_pretrained(model_location)                        
+                                               
                         inputs = [prepare_inputs_for_vllm(message, processor) for message in [messages]]
-                        responses = runner(args, inputs, model, sampling_params)
-                        num_req_tok = args.num_visual_tokens
+                        responses, num_req_tok = runner(args, inputs, model, sampling_params)
+                        # num_req_tok = args.num_visual_tokens
                     print("=====================================")
                     print("Responses: ", responses)
+                    print("Token Budget: ", num_req_tok)
                     # print("=====================================")
                     line['responses'] = responses
                     line['req_token'] = num_req_tok # CSE247
@@ -385,12 +368,12 @@ def main():
                     f.flush()  # make sure the output is written to file
                 except Exception as e:
                     line['responses'] = [repr(e)]
-                    line['req_token'] = num_req_tok # CSE247
                     line['private_test_cases'] = ''
                     f.write(
                         json.dumps(line) + "\n"
                     )
                     f.flush()  # make sure the output is written to file
+                    print('image not found')
                     print(repr(e))
                 counter += 1
                 if counter >= args.num_quiz and args.num_quiz is not None:
