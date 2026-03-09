@@ -1,0 +1,692 @@
+[
+  {
+    "task_id": "abc318_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc318_c_291ed20ae953.png",
+    "prompt_image": "abc318_c_291ed20ae953.png"
+  },
+  {
+    "task_id": "abc318_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc318_e_74cfb6ab43f5.png",
+    "prompt_image": "abc318_e_74cfb6ab43f5.png"
+  },
+  {
+    "task_id": "abc318_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc318_b_5479b37f2170.png",
+    "prompt_image": "abc318_b_5479b37f2170.png"
+  },
+  {
+    "task_id": "abc318_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc318_a_5f31e3e3aab2.png",
+    "prompt_image": "abc318_a_5f31e3e3aab2.png"
+  },
+  {
+    "task_id": "abc318_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc318_d_f1107c8b6ae2.png",
+    "prompt_image": "abc318_d_f1107c8b6ae2.png"
+  },
+  {
+    "task_id": "abc319_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc319_d_49957fcfa432.png",
+    "prompt_image": "abc319_d_49957fcfa432.png"
+  },
+  {
+    "task_id": "abc319_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc319_c_61ce6b172106.png",
+    "prompt_image": "abc319_c_61ce6b172106.png"
+  },
+  {
+    "task_id": "abc319_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc319_b_a09807fe580f.png",
+    "prompt_image": "abc319_b_a09807fe580f.png"
+  },
+  {
+    "task_id": "abc320_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc320_c_27f2e6804c33.png",
+    "prompt_image": "abc320_c_27f2e6804c33.png"
+  },
+  {
+    "task_id": "abc320_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc320_b_83c6162dbc93.png",
+    "prompt_image": "abc320_b_83c6162dbc93.png"
+  },
+  {
+    "task_id": "abc320_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc320_d_68a75f4ec404.png",
+    "prompt_image": "abc320_d_68a75f4ec404.png"
+  },
+  {
+    "task_id": "abc320_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc320_a_f0096098aff9.png",
+    "prompt_image": "abc320_a_f0096098aff9.png"
+  },
+  {
+    "task_id": "abc320_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc320_e_b20124d197f4.png",
+    "prompt_image": "abc320_e_b20124d197f4.png"
+  },
+  {
+    "task_id": "abc321_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc321_c_b1249d10068b.png",
+    "prompt_image": "abc321_c_b1249d10068b.png"
+  },
+  {
+    "task_id": "abc321_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc321_e_945e76f61a7a.png",
+    "prompt_image": "abc321_e_945e76f61a7a.png"
+  },
+  {
+    "task_id": "abc321_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc321_b_30e89ba31311.png",
+    "prompt_image": "abc321_b_30e89ba31311.png"
+  },
+  {
+    "task_id": "abc321_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc321_a_9ca0d971cbf9.png",
+    "prompt_image": "abc321_a_9ca0d971cbf9.png"
+  },
+  {
+    "task_id": "abc321_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc321_d_6938d7b21b7e.png",
+    "prompt_image": "abc321_d_6938d7b21b7e.png"
+  },
+  {
+    "task_id": "abc322_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc322_d_cef70355941f.png",
+    "prompt_image": "abc322_d_cef70355941f.png"
+  },
+  {
+    "task_id": "abc322_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc322_c_b296e4287b60.png",
+    "prompt_image": "abc322_c_b296e4287b60.png"
+  },
+  {
+    "task_id": "abc322_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc322_a_a73024f0d97b.png",
+    "prompt_image": "abc322_a_a73024f0d97b.png"
+  },
+  {
+    "task_id": "abc322_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc322_b_236be025c804.png",
+    "prompt_image": "abc322_b_236be025c804.png"
+  },
+  {
+    "task_id": "abc322_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc322_e_15b7c3582fe4.png",
+    "prompt_image": "abc322_e_15b7c3582fe4.png"
+  },
+  {
+    "task_id": "abc323_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc323_e_991384d52369.png",
+    "prompt_image": "abc323_e_991384d52369.png"
+  },
+  {
+    "task_id": "abc323_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc323_c_e9a6310b518c.png",
+    "prompt_image": "abc323_c_e9a6310b518c.png"
+  },
+  {
+    "task_id": "abc323_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc323_b_b1d91be88dad.png",
+    "prompt_image": "abc323_b_b1d91be88dad.png"
+  },
+  {
+    "task_id": "abc323_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc323_d_e77eba777609.png",
+    "prompt_image": "abc323_d_e77eba777609.png"
+  },
+  {
+    "task_id": "abc323_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc323_a_7a556878d52e.png",
+    "prompt_image": "abc323_a_7a556878d52e.png"
+  },
+  {
+    "task_id": "abc324_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc324_e_0d919ba68ce9.png",
+    "prompt_image": "abc324_e_0d919ba68ce9.png"
+  },
+  {
+    "task_id": "abc324_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc324_a_9cf6bf64ba1a.png",
+    "prompt_image": "abc324_a_9cf6bf64ba1a.png"
+  },
+  {
+    "task_id": "abc324_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc324_c_0b5f1f1bb7e7.png",
+    "prompt_image": "abc324_c_0b5f1f1bb7e7.png"
+  },
+  {
+    "task_id": "abc324_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc324_d_d31d82a19905.png",
+    "prompt_image": "abc324_d_d31d82a19905.png"
+  },
+  {
+    "task_id": "abc324_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc324_b_d0d681745681.png",
+    "prompt_image": "abc324_b_d0d681745681.png"
+  },
+  {
+    "task_id": "abc325_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc325_c_c482ab678f58.png",
+    "prompt_image": "abc325_c_c482ab678f58.png"
+  },
+  {
+    "task_id": "abc325_f",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc325_f_f23bf269660b.png",
+    "prompt_image": "abc325_f_f23bf269660b.png"
+  },
+  {
+    "task_id": "abc325_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc325_e_e0a5dd2fb339.png",
+    "prompt_image": "abc325_e_e0a5dd2fb339.png"
+  },
+  {
+    "task_id": "abc325_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc325_a_1d83b0d7f751.png",
+    "prompt_image": "abc325_a_1d83b0d7f751.png"
+  },
+  {
+    "task_id": "abc325_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc325_b_9d688257ff5c.png",
+    "prompt_image": "abc325_b_9d688257ff5c.png"
+  },
+  {
+    "task_id": "abc325_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc325_d_0185739ff0dd.png",
+    "prompt_image": "abc325_d_0185739ff0dd.png"
+  },
+  {
+    "task_id": "abc326_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc326_b_02d43918b992.png",
+    "prompt_image": "abc326_b_02d43918b992.png"
+  },
+  {
+    "task_id": "abc326_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc326_a_70f20c2d47e7.png",
+    "prompt_image": "abc326_a_70f20c2d47e7.png"
+  },
+  {
+    "task_id": "abc326_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc326_e_87ccd2dae3fe.png",
+    "prompt_image": "abc326_e_87ccd2dae3fe.png"
+  },
+  {
+    "task_id": "abc326_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc326_c_1930eab244b4.png",
+    "prompt_image": "abc326_c_1930eab244b4.png"
+  },
+  {
+    "task_id": "abc327_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc327_a_3157f795dd41.png",
+    "prompt_image": "abc327_a_3157f795dd41.png"
+  },
+  {
+    "task_id": "abc327_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc327_e_416b18de8707.png",
+    "prompt_image": "abc327_e_416b18de8707.png"
+  },
+  {
+    "task_id": "abc327_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc327_c_b263c67cfe47.png",
+    "prompt_image": "abc327_c_b263c67cfe47.png"
+  },
+  {
+    "task_id": "abc327_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc327_d_c392e1f39164.png",
+    "prompt_image": "abc327_d_c392e1f39164.png"
+  },
+  {
+    "task_id": "abc327_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc327_b_cf87e6cf32da.png",
+    "prompt_image": "abc327_b_cf87e6cf32da.png"
+  },
+  {
+    "task_id": "abc328_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc328_b_e93d9329fd32.png",
+    "prompt_image": "abc328_b_e93d9329fd32.png"
+  },
+  {
+    "task_id": "abc328_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc328_d_dd7a41ea017d.png",
+    "prompt_image": "abc328_d_dd7a41ea017d.png"
+  },
+  {
+    "task_id": "abc328_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc328_c_b16c6bc40084.png",
+    "prompt_image": "abc328_c_b16c6bc40084.png"
+  },
+  {
+    "task_id": "abc328_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc328_a_de38295b9b4f.png",
+    "prompt_image": "abc328_a_de38295b9b4f.png"
+  },
+  {
+    "task_id": "abc328_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc328_e_e7c7675656b7.png",
+    "prompt_image": "abc328_e_e7c7675656b7.png"
+  },
+  {
+    "task_id": "abc329_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc329_d_177f1889c44a.png",
+    "prompt_image": "abc329_d_177f1889c44a.png"
+  },
+  {
+    "task_id": "abc329_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc329_c_ebfcd561c4e7.png",
+    "prompt_image": "abc329_c_ebfcd561c4e7.png"
+  },
+  {
+    "task_id": "abc329_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc329_a_d4807afdfb00.png",
+    "prompt_image": "abc329_a_d4807afdfb00.png"
+  },
+  {
+    "task_id": "abc329_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc329_e_13fcfef38710.png",
+    "prompt_image": "abc329_e_13fcfef38710.png"
+  },
+  {
+    "task_id": "abc329_f",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc329_f_ab180c3f30ea.png",
+    "prompt_image": "abc329_f_ab180c3f30ea.png"
+  },
+  {
+    "task_id": "abc329_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc329_b_1d1e305f80ae.png",
+    "prompt_image": "abc329_b_1d1e305f80ae.png"
+  },
+  {
+    "task_id": "abc330_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc330_b_d7917c4af6c1.png",
+    "prompt_image": "abc330_b_d7917c4af6c1.png"
+  },
+  {
+    "task_id": "abc330_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc330_a_425d4d70f7fd.png",
+    "prompt_image": "abc330_a_425d4d70f7fd.png"
+  },
+  {
+    "task_id": "abc330_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc330_e_8c4fac9afebf.png",
+    "prompt_image": "abc330_e_8c4fac9afebf.png"
+  },
+  {
+    "task_id": "abc330_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc330_d_b09604744220.png",
+    "prompt_image": "abc330_d_b09604744220.png"
+  },
+  {
+    "task_id": "abc330_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc330_c_8f04f75e769a.png",
+    "prompt_image": "abc330_c_8f04f75e769a.png"
+  },
+  {
+    "task_id": "abc331_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc331_a_898ce6695ee2.png",
+    "prompt_image": "abc331_a_898ce6695ee2.png"
+  },
+  {
+    "task_id": "abc331_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc331_b_13264abf2ffa.png",
+    "prompt_image": "abc331_b_13264abf2ffa.png"
+  },
+  {
+    "task_id": "abc331_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc331_c_1c6e8c45bb28.png",
+    "prompt_image": "abc331_c_1c6e8c45bb28.png"
+  },
+  {
+    "task_id": "abc331_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc331_d_91324d2690d6.png",
+    "prompt_image": "abc331_d_91324d2690d6.png"
+  },
+  {
+    "task_id": "abc331_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc331_e_1ccd6d0718dd.png",
+    "prompt_image": "abc331_e_1ccd6d0718dd.png"
+  },
+  {
+    "task_id": "abc332_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc332_a_88a7e5b3c6e9.png",
+    "prompt_image": "abc332_a_88a7e5b3c6e9.png"
+  },
+  {
+    "task_id": "abc332_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc332_c_f28c2a394147.png",
+    "prompt_image": "abc332_c_f28c2a394147.png"
+  },
+  {
+    "task_id": "abc332_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc332_d_96f7e02a038b.png",
+    "prompt_image": "abc332_d_96f7e02a038b.png"
+  },
+  {
+    "task_id": "abc332_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc332_b_e81b588789be.png",
+    "prompt_image": "abc332_b_e81b588789be.png"
+  },
+  {
+    "task_id": "abc333_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc333_c_819710fa61a6.png",
+    "prompt_image": "abc333_c_819710fa61a6.png"
+  },
+  {
+    "task_id": "abc333_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc333_e_20b77f91cd48.png",
+    "prompt_image": "abc333_e_20b77f91cd48.png"
+  },
+  {
+    "task_id": "abc333_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc333_b_3cc42d3b3887.png",
+    "prompt_image": "abc333_b_3cc42d3b3887.png"
+  },
+  {
+    "task_id": "abc333_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc333_a_a30fa490c709.png",
+    "prompt_image": "abc333_a_a30fa490c709.png"
+  },
+  {
+    "task_id": "abc334_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc334_e_1094cd7f828a.png",
+    "prompt_image": "abc334_e_1094cd7f828a.png"
+  },
+  {
+    "task_id": "abc334_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc334_c_dd4b14da84ca.png",
+    "prompt_image": "abc334_c_dd4b14da84ca.png"
+  },
+  {
+    "task_id": "abc334_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc334_b_749b51558f3d.png",
+    "prompt_image": "abc334_b_749b51558f3d.png"
+  },
+  {
+    "task_id": "abc334_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc334_d_81d43797e4e7.png",
+    "prompt_image": "abc334_d_81d43797e4e7.png"
+  },
+  {
+    "task_id": "abc334_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc334_a_fe4c17e1eff1.png",
+    "prompt_image": "abc334_a_fe4c17e1eff1.png"
+  },
+  {
+    "task_id": "abc335_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc335_d_8c420ec6895d.png",
+    "prompt_image": "abc335_d_8c420ec6895d.png"
+  },
+  {
+    "task_id": "abc335_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc335_c_fefdcaed76b4.png",
+    "prompt_image": "abc335_c_fefdcaed76b4.png"
+  },
+  {
+    "task_id": "abc335_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc335_a_6bbd8a80f650.png",
+    "prompt_image": "abc335_a_6bbd8a80f650.png"
+  },
+  {
+    "task_id": "abc335_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc335_b_bf1b19f9ef8d.png",
+    "prompt_image": "abc335_b_bf1b19f9ef8d.png"
+  },
+  {
+    "task_id": "abc336_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc336_a_64cc880f2d3e.png",
+    "prompt_image": "abc336_a_64cc880f2d3e.png"
+  },
+  {
+    "task_id": "abc336_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc336_c_c7eb7abc688d.png",
+    "prompt_image": "abc336_c_c7eb7abc688d.png"
+  },
+  {
+    "task_id": "abc336_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc336_d_b80eab16e145.png",
+    "prompt_image": "abc336_d_b80eab16e145.png"
+  },
+  {
+    "task_id": "abc336_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc336_b_7b6d8b7d522d.png",
+    "prompt_image": "abc336_b_7b6d8b7d522d.png"
+  },
+  {
+    "task_id": "abc337_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc337_c_32f9164ee46b.png",
+    "prompt_image": "abc337_c_32f9164ee46b.png"
+  },
+  {
+    "task_id": "abc337_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc337_b_960adb4197c0.png",
+    "prompt_image": "abc337_b_960adb4197c0.png"
+  },
+  {
+    "task_id": "abc337_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc337_d_baae5cd07821.png",
+    "prompt_image": "abc337_d_baae5cd07821.png"
+  },
+  {
+    "task_id": "abc337_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc337_a_7b74ae663c84.png",
+    "prompt_image": "abc337_a_7b74ae663c84.png"
+  },
+  {
+    "task_id": "abc338_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc338_a_f6682f62dd6a.png",
+    "prompt_image": "abc338_a_f6682f62dd6a.png"
+  },
+  {
+    "task_id": "abc338_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc338_b_7dc707cbda0f.png",
+    "prompt_image": "abc338_b_7dc707cbda0f.png"
+  },
+  {
+    "task_id": "abc338_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc338_e_b4a8fbd75b7e.png",
+    "prompt_image": "abc338_e_b4a8fbd75b7e.png"
+  },
+  {
+    "task_id": "abc338_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc338_c_ddaea2ea3694.png",
+    "prompt_image": "abc338_c_ddaea2ea3694.png"
+  },
+  {
+    "task_id": "abc338_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc338_d_739db0771e4a.png",
+    "prompt_image": "abc338_d_739db0771e4a.png"
+  },
+  {
+    "task_id": "abc339_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc339_c_ac9a9b524ab8.png",
+    "prompt_image": "abc339_c_ac9a9b524ab8.png"
+  },
+  {
+    "task_id": "abc339_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc339_a_5b7808f62278.png",
+    "prompt_image": "abc339_a_5b7808f62278.png"
+  },
+  {
+    "task_id": "abc339_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc339_b_66ce7503c2a0.png",
+    "prompt_image": "abc339_b_66ce7503c2a0.png"
+  },
+  {
+    "task_id": "abc340_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc340_e_95151d9bf457.png",
+    "prompt_image": "abc340_e_95151d9bf457.png"
+  },
+  {
+    "task_id": "abc340_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc340_d_ee2cffde3707.png",
+    "prompt_image": "abc340_d_ee2cffde3707.png"
+  },
+  {
+    "task_id": "abc340_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc340_b_7b3b4d31153e.png",
+    "prompt_image": "abc340_b_7b3b4d31153e.png"
+  },
+  {
+    "task_id": "abc340_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc340_c_2423c0c3a2da.png",
+    "prompt_image": "abc340_c_2423c0c3a2da.png"
+  },
+  {
+    "task_id": "abc340_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc340_a_b90cf1d38ee5.png",
+    "prompt_image": "abc340_a_b90cf1d38ee5.png"
+  },
+  {
+    "task_id": "abc341_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc341_c_6c55d7a7a626.png",
+    "prompt_image": "abc341_c_6c55d7a7a626.png"
+  },
+  {
+    "task_id": "abc341_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc341_b_33d2430040be.png",
+    "prompt_image": "abc341_b_33d2430040be.png"
+  },
+  {
+    "task_id": "abc341_f",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc341_f_f7c591dc375a.png",
+    "prompt_image": "abc341_f_f7c591dc375a.png"
+  },
+  {
+    "task_id": "abc341_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc341_d_6cfb6324cb8f.png",
+    "prompt_image": "abc341_d_6cfb6324cb8f.png"
+  },
+  {
+    "task_id": "abc341_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc341_a_a31fb90c4742.png",
+    "prompt_image": "abc341_a_a31fb90c4742.png"
+  },
+  {
+    "task_id": "abc342_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc342_e_3cf1fdf909cb.png",
+    "prompt_image": "abc342_e_3cf1fdf909cb.png"
+  },
+  {
+    "task_id": "abc342_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc342_a_958a063507e5.png",
+    "prompt_image": "abc342_a_958a063507e5.png"
+  },
+  {
+    "task_id": "abc342_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc342_b_0a0e1ec027b8.png",
+    "prompt_image": "abc342_b_0a0e1ec027b8.png"
+  },
+  {
+    "task_id": "abc342_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc342_d_cbfec11bfa5c.png",
+    "prompt_image": "abc342_d_cbfec11bfa5c.png"
+  },
+  {
+    "task_id": "abc342_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc342_c_df79e3df9d57.png",
+    "prompt_image": "abc342_c_df79e3df9d57.png"
+  },
+  {
+    "task_id": "abc343_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc343_d_964ec2cac18c.png",
+    "prompt_image": "abc343_d_964ec2cac18c.png"
+  },
+  {
+    "task_id": "abc343_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc343_e_96ea0e0e8067.png",
+    "prompt_image": "abc343_e_96ea0e0e8067.png"
+  },
+  {
+    "task_id": "abc343_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc343_b_1851e90e620a.png",
+    "prompt_image": "abc343_b_1851e90e620a.png"
+  },
+  {
+    "task_id": "abc343_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc343_c_b835774bba2d.png",
+    "prompt_image": "abc343_c_b835774bba2d.png"
+  },
+  {
+    "task_id": "abc344_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc344_a_3cc2f7c50a28.png",
+    "prompt_image": "abc344_a_3cc2f7c50a28.png"
+  },
+  {
+    "task_id": "abc344_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc344_b_4b30040d1a9f.png",
+    "prompt_image": "abc344_b_4b30040d1a9f.png"
+  },
+  {
+    "task_id": "abc344_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc344_c_06cb38d25312.png",
+    "prompt_image": "abc344_c_06cb38d25312.png"
+  },
+  {
+    "task_id": "abc344_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc344_d_59ecae38b91e.png",
+    "prompt_image": "abc344_d_59ecae38b91e.png"
+  },
+  {
+    "task_id": "abc344_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc344_e_e5243d611cbc.png",
+    "prompt_image": "abc344_e_e5243d611cbc.png"
+  },
+  {
+    "task_id": "abc345_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc345_a_f9d1ea6a3601.png",
+    "prompt_image": "abc345_a_f9d1ea6a3601.png"
+  },
+  {
+    "task_id": "abc345_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc345_b_705bb17eae1d.png",
+    "prompt_image": "abc345_b_705bb17eae1d.png"
+  },
+  {
+    "task_id": "abc345_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc345_c_4a77eb8a6e80.png",
+    "prompt_image": "abc345_c_4a77eb8a6e80.png"
+  },
+  {
+    "task_id": "abc346_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc346_a_bc11fd36df5b.png",
+    "prompt_image": "abc346_a_bc11fd36df5b.png"
+  },
+  {
+    "task_id": "abc346_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc346_b_4f0ca93d8773.png",
+    "prompt_image": "abc346_b_4f0ca93d8773.png"
+  },
+  {
+    "task_id": "abc346_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc346_c_9f361c05be58.png",
+    "prompt_image": "abc346_c_9f361c05be58.png"
+  },
+  {
+    "task_id": "abc346_d",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc346_d_7c931eca736b.png",
+    "prompt_image": "abc346_d_7c931eca736b.png"
+  },
+  {
+    "task_id": "abc346_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc346_e_2d8b51593627.png",
+    "prompt_image": "abc346_e_2d8b51593627.png"
+  },
+  {
+    "task_id": "abc347_a",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc347_a_1ecfbb893f64.png",
+    "prompt_image": "abc347_a_1ecfbb893f64.png"
+  },
+  {
+    "task_id": "abc347_b",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc347_b_0d0c5f3e8f7a.png",
+    "prompt_image": "abc347_b_0d0c5f3e8f7a.png"
+  },
+  {
+    "task_id": "abc347_c",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc347_c_18e9e2c4f3db.png",
+    "prompt_image": "abc347_c_18e9e2c4f3db.png"
+  },
+  {
+    "task_id": "abc347_e",
+    "image": "/content/DebugEval_datasets/bug_repair/vlm/images/abc347_e_802ecbf2e2cd.png",
+    "prompt_image": "abc347_e_802ecbf2e2cd.png"
+  }
+]

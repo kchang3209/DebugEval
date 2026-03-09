@@ -130,7 +130,7 @@ def main():
     parser.add_argument("--max_model_len", type=int, default=4096, help="max number of tokens of prompt + generated response")
     # parser.add_argument("--num_visual_tokens", type=int, default=1024, help="visual token budget (is fixed in CSE247)")
     parser.add_argument("--DATASET_PATH", type=str, default='', help="path to dataset metadata")
-    parser.add_argument("--IMAGE_PATH", type=str, default='', help="path to code image")
+    parser.add_argument("--IMAGE_DIR", type=str, default='', help="path to code image")
     parser.add_argument("--presence_penalty", type=float, default=1.5, help="encourage model to introduce new concepts")
     args = parser.parse_args()
 
@@ -156,7 +156,9 @@ def main():
         data = [d for d in data if d['task2_choice'] != '']
         print("Selected task: {}, total {} samples".format(args.task, len(data)))
 
+    # CSE247, only doing python code repair
     if args.task == "code_repair":
+        data = [d for d in data if d['language'] == 'python']   # limit to python
         print("Selected task: {}, total {} samples".format(args.task, len(data)))
 
     if args.task == "code_review":
@@ -208,6 +210,7 @@ def main():
                 prompt_template = f.read()
             assert prompt_template is not None, "Prompt template is None"
             print("Prompt read successfully")
+        # CSE247 Python Code repair
         else:
             prompt_path = os.path.join(args.prompt_dir, args.task, "prompt_{}.txt".format(args.prompt_type))
             print("Reading prompt from {}".format(prompt_path))
@@ -269,7 +272,9 @@ def main():
     # Model Init
     # ========================
     runner = None
-    if "Qwen" in args.model:  ## Model Loader CSE247
+    
+    ## Model Loader CSE247
+    if "Qwen" in args.model:  
         if args.model_path is None:
             model_location = args.model
         else:
@@ -298,18 +303,16 @@ def main():
             )
             processor = AutoProcessor.from_pretrained(model_location) 
             
-            
+            # map code snippet file name to task_id
             id_image_mapping = {}
             with open(args.DATASET_PATH) as f:
                 dataset = json.load(f)
                 for item in dataset:
                     id_image_mapping[item['task_id']] = item['prompt_image']    # key/value = task_id/image name, e.g. "leetcode_6": "leetcode_6_b9381e0e06a0.png"
-
-
-
-            
         runner = Qwen_runner
         print('Qwen Model Ready.')
+        
+    
     elif "gpt" in args.model:
         runner = gpt_runner
     elif args.model == 'deepseek-chat' or args.model == 'deepseek-coder':
@@ -339,14 +342,8 @@ def main():
                         responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
                         
                     elif args.mode == 'vlm':
-                        # for item in dataset:
-                        #     if item['task_id'] != task_id:
-                        #         continue
-                        #     elif item['task_id'] == task_id:
-                        #         image_path = os.path.join(args.IMAGE_PATH, item['prompt_image'])
-                        #         break
                             
-                        image_path = os.path.join(args.IMAGE_PATH, id_image_mapping[task_id])
+                        image_path = os.path.join(args.IMAGE_DIR, id_image_mapping[task_id])
                         messages = [
                             {
                                 "role": "user",
@@ -416,24 +413,47 @@ def main():
                     )
                     f.flush()  # make sure the output is written to file
                     print(repr(e))
+                    
+    # CSE247 
     elif args.task == "code_repair":
         with open(output_path, "a") as f:
+            counter = 0
             for line in tqdm(remaining_data, desc="Generating samples", total=len(remaining_data)):
                 try:
                     question_content = line['question_content']
                     buggy_code = line['buggy_code']
                     lang = line['language']
-                    prompt = prompt_template.replace("%%%Task%%%", question_content).replace(
-                        "%%%Incorrect_Solution%%%", buggy_code).replace("%%%lang%%%",lang)
-                    print("=====================================")
-                    print("Prompt: ", prompt)
-                    print("=====================================")
-                    messages = [{"role": "user", "content": prompt}]
-                    responses = runner(args, messages)
+                    
+                    if args.mode == 'text_only':
+                        prompt = prompt_template.replace("%%%Task%%%", question_content).replace("%%%Incorrect_Solution%%%", buggy_code).replace("%%%lang%%%",lang)
+                        responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
+                    elif args.mode == 'vlm':
+                        image_path = os.path.join(args.IMAGE_DIR, id_image_mapping[task_id])
+                        messages = [
+                            {
+                                "role": "user",
+                                "content": [
+                                {"type": "text", "text": "Follow the instructions in the image. Your final answer should be in the following format: <Answer>(Option)</Answer>."},                                    
+                                {
+                                    "type": "image",
+                                    "image": image_path,
+                                },
+
+                                ],
+                            }
+                        ]
+                        
+                        inputs = [prepare_inputs_for_vllm(message, processor) for message in [messages]]   
+                        responses, num_req_tok = runner(args, inputs, model, sampling_params)
+
+                    # messages = [{"role": "user", "content": prompt}]
+                    # responses = runner(args, messages)
                     print("=====================================")
                     print("Responses: ", responses)
-                    print("=====================================")
+                    print("Token Budget: ", num_req_tok)
+                    # print("=====================================")
                     line['responses'] = responses
+                    line['req_token'] = num_req_tok # CSE247
                     line['private_test_cases'] = ''
                     f.write(
                         json.dumps(line) + "\n"
@@ -446,7 +466,11 @@ def main():
                         json.dumps(line) + "\n"
                     )
                     f.flush()  # make sure the output is written to file
+                    print('inference fail')
                     print(repr(e))
+                counter += 1
+                if counter >= args.num_quiz and args.num_quiz is not None:
+                    break
     elif args.task == "code_review" or args.task == "code_review_reverse":
         with open(output_path, "a") as f:
             for line in tqdm(remaining_data, desc="Generating samples", total=len(remaining_data)):
