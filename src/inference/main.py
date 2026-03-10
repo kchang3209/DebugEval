@@ -288,7 +288,7 @@ def main():
     
         if args.mode == 'text_only':
             model = LLM(model=model_location,
-                      tokenizer=args.model,
+                    #   tokenizer=args.model,
                       max_model_len=args.max_model_len,
                       gpu_memory_utilization=args.GPU_util)
         elif args.mode == 'vlm':

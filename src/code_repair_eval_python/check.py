@@ -99,7 +99,8 @@ def main(file_path,output_path,private_test_cases_path):
 
     print("Done!")
 if __name__ == '__main__':
-    path = './code_repair/zero_shot/python_zero_shot.jsonl'
-    out = './code_repair/zero_shot/python_result.jsonl'
-    private_test_cases_path = './atcoder_private_test_cases.jsonl'
+    # path = './code_repair/zero_shot/python_zero_shot.jsonl'
+    path = '../../../CSE247_Results/DebugEval/bug_repair/DebugEval_Result/code_repair/zero_shot/python_zero_shot.jsonl'
+    out = '../../../CSE247_Results/DebugEval/bug_repair/DebugEval_Result/code_repair/zero_shot/python_result.jsonl'
+    private_test_cases_path = '../../../CSE247_Results/DebugEval/bug_repair/atcoder_private_test_cases.jsonl'
     main(path,out,private_test_cases_path)
