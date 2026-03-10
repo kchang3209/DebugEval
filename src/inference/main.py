@@ -382,7 +382,7 @@ def main():
                     print('image not found')
                     print(repr(e))
                 counter += 1
-                if counter >= args.num_quiz and args.num_quiz is not None:
+                if counter >= args.num_quiz and args.num_quiz != 0:
                     break
     elif args.task == "error_type_identification":
         with open(output_path, "a") as f:
@@ -469,7 +469,7 @@ def main():
                     print('inference fail')
                     print(repr(e))
                 counter += 1
-                if counter >= args.num_quiz and args.num_quiz is not None:
+                if counter >= args.num_quiz and args.num_quiz != 0:
                     break
     elif args.task == "code_review" or args.task == "code_review_reverse":
         with open(output_path, "a") as f:

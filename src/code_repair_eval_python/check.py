@@ -67,22 +67,32 @@ def main(file_path,output_path,private_test_cases_path):
     data = read_jsonl_file(path)
     print("data loaded, total", len(data), "items")
 
-    private_test_cases = []
+    # private_test_cases = []
 
+    # with open(private_test_cases_path) as file:
+    #     for line in file:
+    #         private_test_cases.append(json.loads(line))
+
+    # CSE247 use hashmap and not doing id sort and check
+
+    new_test_cases = {}
     with open(private_test_cases_path) as file:
         for line in file:
-            private_test_cases.append(json.loads(line))
+            temp = json.loads(line)
+            new_test_cases[temp['question_id']] = temp['private_test_cases']
 
-
-    new_data = sorted(data, key=lambda x: x['question_id'])
-    new_test_cases = sorted(private_test_cases, key=lambda x:x['question_id'])
+    new_data = sorted(data, key=lambda x: x['question_id']) # my generated respose
+    
+    # new_test_cases = sorted(private_test_cases, key=lambda x:x['question_id'])  # reference
 
     check_data = []
     for i,line in enumerate(tqdm(new_data)):
         check_dict = {}
         responses = line['responses']
-        assert line['question_id'] == new_test_cases[i]['question_id'],"the question isn't same"
-        reference = convert_testcases_format(new_test_cases[i]['private_test_cases'])
+        # assert line['question_id'] == new_test_cases[i]['question_id'],"the question isn't same"
+        # reference = convert_testcases_format(new_test_cases[i]['private_test_cases'])
+        # assert line['question_id'] == new_test_cases[i]['question_id'],"the question isn't same"
+        reference = convert_testcases_format(new_test_cases[line['question_id']])
         responses_success,responses_metadata = check_comp_code_success(responses, reference)
 
         print("question_id:", line['question_id'])
@@ -94,13 +104,14 @@ def main(file_path,output_path,private_test_cases_path):
         check_dict['responses_metadata'] = str(responses_metadata)
         check_data.append(check_dict)
         print("===")
+        # break
     write_jsonl_file(output_path, check_data)
 
 
     print("Done!")
 if __name__ == '__main__':
     # path = './code_repair/zero_shot/python_zero_shot.jsonl'
-    path = '../../../CSE247_Results/DebugEval/bug_repair/DebugEval_Result/code_repair/zero_shot/python_zero_shot.jsonl'
-    out = '../../../CSE247_Results/DebugEval/bug_repair/DebugEval_Result/code_repair/zero_shot/python_result.jsonl'
-    private_test_cases_path = '../../../CSE247_Results/DebugEval/bug_repair/atcoder_private_test_cases.jsonl'
+    path = './python_zero_shot.jsonl'
+    out = './python_result.jsonl'
+    private_test_cases_path = './atcoder_private_test_cases.jsonl'
     main(path,out,private_test_cases_path)
