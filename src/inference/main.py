@@ -423,7 +423,7 @@ def main():
                     question_content = line['question_content']
                     buggy_code = line['buggy_code']
                     lang = line['language']
-                    
+                    task_id = line['question_id']
                     if args.mode == 'text_only':
                         prompt = prompt_template.replace("%%%Task%%%", question_content).replace("%%%Incorrect_Solution%%%", buggy_code).replace("%%%lang%%%",lang)
                         responses, num_req_tok = runner(args, prompt, model, sampling_params) # CSE247
@@ -433,7 +433,7 @@ def main():
                             {
                                 "role": "user",
                                 "content": [
-                                {"type": "text", "text": "Follow the instructions in the image. Your final answer should be in the following format: <Answer>(Option)</Answer>."},                                    
+                                {"type": "text", "text": "Follow the instructions in the image."},                                    
                                 {
                                     "type": "image",
                                     "image": image_path,
